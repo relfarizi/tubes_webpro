@@ -1,43 +1,147 @@
-<!-- Main layout -->
-<main>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homepage</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/home.css">
+</head>
+<body>
 
-  <div class="view jarallax" style="height: 100vh;">
-    <img class="jarallax-img" src="assets/klikfiks.png" style="height: 80%;" alt="">
-    <div class="mask rgba-blue-slight">
-      <div class="container flex-center text-center">
-        <div class="row mt-5">
-          <div class="col-md-12 wow fadeIn mb-3">
-            <h1 class="display-3 mb-2 wow fadeInDown" data-wow-delay="0.3s">NATALIE <a class="indigo-text font-weight-bold">SMITH</a></h1>
-            <h5 class="text-uppercase mb-3 mt-1 font-weight-bold wow fadeIn" data-wow-delay="0.4s">Web developer & graphic designer</h5>
-            <a class="btn btn-light-blue btn-lg wow fadeIn" data-wow-delay="0.4s">portfolio</a> <a class="btn btn-indigo btn-lg wow fadeIn" data-wow-delay="0.4s">About me</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
+<body>
+<div style="background: linear-gradient(to bottom, #33cccc 1%, #bce0cd 100%) ; color: white;">
   <div class="container">
-
-    <!--Grid row-->
-    <div class="row mb-5 pb-4">
-
-      <!--Grid column-->
-      <div class="col-md-12 text-center">
-
-        <h2 class="h1 font-weight-bold light-blue-text my-5 py-4">Lorem ipsum dolor sit amet, consectetur quis elit.</h2>
-        <p align="justify">Lorem ipsum dolor sit amet, consectetur quis elit. Perspiciatis commodi porro, cumque provident rem corporis odit, ut quas dolores maxime nesciunt possimus quis, soluta velit debitis amet, veritatis cupiditate reprehenderit.Lorem ipsum dolor sit amet, consectetur quis elit. Perspiciatis commodi porro, cumque provident rem corporis odit, ut quas dolores maxime nesciunt possimus quis, soluta velit debitis amet, veritatis cupiditate reprehenderit.Lorem ipsum dolor sit amet, consectetur quis elit. Perspiciatis commodi porro, cumque provident rem corporis odit, ut quas dolores maxime nesciunt possimus quis, soluta velit debitis amet, veritatis cupiditate reprehenderit.Lorem ipsum dolor sit amet, consectetur quis elit. Perspiciatis commodi porro, cumque provident rem corporis odit, ut quas dolores maxime nesciunt possimus quis, soluta velit debitis amet, veritatis cupiditate reprehenderit.Lorem ipsum dolor sit amet, consectetur quis elit. Perspiciatis commodi porro, cumque provident rem corporis odit, ut quas dolores maxime nesciunt possimus quis, soluta velit debitis amet, veritatis cupiditate reprehenderit.Lorem ipsum dolor sit amet, consectetur quis elit. Perspiciatis commodi porro, cumque provident rem corporis odit, ut quas dolores maxime nesciunt possimus quis, soluta velit debitis amet, veritatis cupiditate reprehenderit.Lorem ipsum dolor sit amet, consectetur quis elit. Perspiciatis commodi porro, cumque provident rem corporis odit, ut quas dolores maxime nesciunt possimus quis, soluta velit debitis amet, veritatis cupiditate reprehenderit.Lorem ipsum dolor sit amet, consectetur quis elit. Perspiciatis commodi porro, cumque provident rem corporis odit, ut quas dolores maxime nesciunt possimus quis, soluta velit debitis amet, veritatis cupiditate reprehenderit.</p>
-
-      </div>
-      <!--Grid column-->
-
-    </div>
-    <!--Grid row-->
-
+    <h3 class="text-center" style="padding-top:50px; ">
+      <div>Jasa Service iPhone, Handphone (HP), dan Laptop Panggilan Terpercaya di </div>
+      <div>Jakarta dan Bandung</div>
+    </h3>
+    <h6 class="text-center" style="padding-top: 25px;">
+      <div>Panggil Klikfix aja, teknisi yang siap mendatangimu ke mana saja.</div>
+      <div>Gratis konsultasi, garansi 60 hari & bayar hanya kalau gadget kamu sudah selesai diperbaiki.</div>
+      </h6>
+    <button class=".btn-primary">Konsultasi Gratis</button>
   </div>
-
-  <div class="view jarallax">
-    <img class="jarallax-img" src="https://mdbootstrap.com/img/Photos/Others/nature4.jpg" alt="">
+  <div class="view jarallax text-center">
+    <img class="jarallax-img" src="assets/klikfiks.png" style="height: 60%;" alt="Source: Klikfix.com">
   </div>
+</div>
 
-</main>
-<!-- Main layout -->
+<div style="background: linear-gradient(to bottom, #E8DAEF 1%, #bce0cd 100%)">
+<div class="container"
+style="font-size:13px; padding-top: 10px; padding-bottom: 10px">
+  Butuh estimasi biaya? Tulis jenis gadget dan kerusakannya di sini dan kami akan segera memberikan estimasi biaya kepada kamu:
+  <div style="padding-top: 10px">
+    <table class="table table-bordered bg-light">
+      <tr>
+          <th>Huye</th>
+          <th>huye</th>
+          <th>huye</th>
+      </tr>
+    </table>  
+  </div>
+</div>
+</div>
+
+<div style="background-color: white; padding-bottom: 50px; padding-top: 25px ;;
+">
+  <div class="container ">
+    <h3 class="text-center" style="padding-bottom: 10px">5 Langkah Mudah Service di Klikfix</h3>
+    <table class="container">
+      <tr >
+        <th><img src="assets/costumer_service.png" class="image"></th>
+        <th><img src="assets/pickup.png" class="image" ></th>
+        <th><img src="assets/diagnosa.png" class="image"></th>
+        <th><img src="assets/repair.png" class="image"></th>
+        <th><img src="assets/delivery.png" class="image" style="height: 160%"></th>
+      </tr>
+      <tr class="text-center" style="font-size: 10px; padding-right: 5px; padding-top: 10px ">
+        <td>Langkah 1 : Hubungi kami untuk membuat janji bertemu</td>
+        <td>Langkah 2 : Kurir kami akan mengambil gadget Anda</td>
+        <td>Langkah 3 : Teknisi akan mendiagnosa kerusakan</td>
+        <td>Langkah 4 : Gadget Anda diperbaiki oleh teknisi kami</td>
+        <td>Langkah 5 : Kurir mengantar gadget ke tempat Anda</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
+<div class="container-fluid " style="background-color: blue; color: white;padding-top: 30px;padding-bottom: 30px">
+  <div>
+    <h3 class="text-center" style="padding-bottom: 5px">Layanan Kami</h3>
+    <p class="text-center" style="font-size:12px  ">Berikut adalah tipe gadget-mu yang bisa kami perbaiki</p>
+  </div>
+</div>
+
+
+<div style="
+ padding-bottom: 50px; padding-top: 25px;background-image : url('assets/work.png');color: white">
+  <div class="container ">
+    <h3 class="text-center" style="padding-bottom: 10px">Keunggulan Klikfix</h3>
+    <table class="container">
+      <tr>
+        <th><img src="assets/money.png" class="image" style="height : 150%"></th>
+        <th><img src="assets/pickup.png" class="image"></th>
+        <th><img src="assets/garansi.png" class="image"></th>
+        <th><img src="assets/teknisi.png" class="image"></th>
+      </tr>
+      <tr class="text-center" style="font-size: 10px; padding-right: 5px; color: white">
+        <td>
+          <STRONG>Gratis Konsultasi</STRONG>
+          <p>Klikfix memberikan GRATIS konsutasi. Semua harga akan di infokan pada awal pelayanan</p>
+        </td>
+       <td>
+          <STRONG>Gratis Antar Jemput</STRONG>
+          <p>Klikfix memberikan kemudahan antar-jemput di tempat yang disepakati</p>
+        </td>
+        <td>
+          <STRONG>Garansi 60 hari</STRONG>
+          <p>Kualitas yang menjanjikan dengan memberikan garansi 60 hari sejak perbaikan selesai</p>
+        </td>
+        <td>
+          <STRONG>Teknisi Handal</STRONG>
+          <p>Teknisi handal kami bisa memperbaiki berbagai macam kerusakan gadget dan laptop Anda</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div class="container-fluid" style="background-color: white; padding-top: 50px; padding-bottom: 50px">
+  <h3 class="text-center" style="padding-bottom: 10px">Pernah diliput oleh</h3>
+  <table class="container">
+      <tr>
+        <th><img src="assets/media.png" class="image" style="height: 30%"></th>
+        <th><img src="assets/media.png" class="image" style="height: 30%"></th>
+        <th><img src="assets/media.png" class="image" style="height: 30%"></th>
+        <th><img src="assets/media.png" class="image" style="height: 30%"></th>
+        <th><img src="assets/media.png" class="image" style="height: 30%"></th>
+      </tr>
+  </table>
+</div>
+
+<div class="container-fluid" style="background-color: blue; padding-top: 50 px; font-size: 12px; ">
+  <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light container-fluid">
+  <div class="nv-bar" style="text-align: center; ">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link col-lg" href="#"  style="color: white">Tentang Kami </a>
+      </li>
+      <li class="nav-item active" >
+        <a class="nav-link col-lg" href="#" style="color: white">Track Order</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link col-lg" href="#" style="color: white">Blog</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link col-lg" href="#" style="color: white">FAQs</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link col-lg" href="#" style="color: white">Hubungi Kami di</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  </div>
+</div>
+</body>
+</html>
