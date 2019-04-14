@@ -7,7 +7,7 @@
 <body>
 
 <body>
-<div style="background: linear-gradient(to bottom, #33cccc 1%, #bce0cd 100%) ; color: white;">
+<div clas="container-fluid" style="background: linear-gradient(to bottom, #33cccc 1%, #bce0cd 100%) ; color: white;">
   <div class="container">
     <h3 class="text-center" style="padding-top:50px; ">
       <div>Jasa Service iPhone, Handphone (HP), dan Laptop Panggilan Terpercaya di </div>
@@ -19,8 +19,13 @@
       </h6>
     <button class=".btn-primary">Konsultasi Gratis</button>
   </div>
-  <div class="view jarallax text-center">
-    <img class="jarallax-img" src="assets/klikfiks.png" style="height: 60%;" alt="Source: Klikfix.com">
+  <div>
+  <table class="container">
+      <tr >
+        <th><img src="assets/klikfiks.png" class="image" style="max-width: 100%;
+  height: auto;"></th>
+      </tr>
+  </table>
   </div>
 </div>
 
@@ -69,6 +74,56 @@ style="font-size:13px; padding-top: 10px; padding-bottom: 10px">
     <h3 class="text-center" style="padding-bottom: 5px">Layanan Kami</h3>
     <p class="text-center" style="font-size:12px  ">Berikut adalah tipe gadget-mu yang bisa kami perbaiki</p>
   </div>
+
+  <div class="container">
+    <table class="container">
+      <tr class="text-center" style="font-size: 10px; padding-right: 5px; padding-top: 10px;">
+        <td>
+          <button style="padding: 50px 90px; background-color:  #0000CD; border: none; 
+  cursor: pointer;
+            transition: ease all 0.3s; ">
+            <div>
+              <img src="assets/smartphone.png">
+            </div>
+            <div>
+              <h4 style="  color: white; padding-top: 40px">Smartphone</h4>
+            </div>
+            <div>
+              <img src="assets/arrow.png" style="padding-top: 40px">
+            </div>
+          </button>
+        </td>
+        <td><button style="padding: 50px 120px; background-color:  #0000CD; border: none; 
+  cursor: pointer;transition: ease all 0.3s;">
+            <div>
+              <img src="assets/tablet.png">
+            </div>
+            <div>
+              <h4 style="  color: white; padding-top: 40px">Tablet</h4>
+            </div>
+            <div>
+              <img src="assets/arrow.png" style="padding-top: 40px">
+            </div>
+          </button>
+        </td>        </td> 
+        <td><button style="padding: 50px 120px; background-color:  #0000CD; border: none; 
+  cursor: pointer; transition: ease all 0.3s; ">
+            <div>
+              <img src="assets/laptop.png">
+            </div>
+            <div>
+              <h4 style="  color: white; padding-top: 40px">Laptop</h4>
+            </div>
+            <div>
+              <img src="assets/arrow.png" style="padding-top: 40px">
+            </div>
+          </button>
+        </td>
+        </td>  
+      </tr>
+
+    </table>
+  </div>
 </div>
 
 
@@ -107,13 +162,18 @@ style="font-size:13px; padding-top: 10px; padding-bottom: 10px">
 
 <div class="container-fluid" style="background-color: white; padding-top: 50px; padding-bottom: 50px">
   <h3 class="text-center" style="padding-bottom: 10px">Pernah diliput oleh</h3>
-  <table class="container">
+  <table class="container" >
       <tr>
-        <th><img src="assets/media.png" class="image" style="height: 30%"></th>
-        <th><img src="assets/media.png" class="image" style="height: 30%"></th>
-        <th><img src="assets/media.png" class="image" style="height: 30%"></th>
-        <th><img src="assets/media.png" class="image" style="height: 30%"></th>
-        <th><img src="assets/media.png" class="image" style="height: 30%"></th>
+        <th><img src="assets/media.png" class="image" style="max-width: 100%;
+  height: auto;"></th>
+        <th><img src="assets/media.png" class="image" style="max-width: 100%;
+  height: auto;"></th>
+        <th><img src="assets/media.png" class="image" style="max-width: 100%;
+  height: auto;"></th>
+        <th><img src="assets/media.png" class="image" style="max-width: 100%;
+  height: auto;"></th>
+        <th><img src="assets/media.png" class="image" style="max-width: 100%;
+  height: auto;"></th>
       </tr>
   </table>
 </div>
