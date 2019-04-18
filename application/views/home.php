@@ -110,7 +110,7 @@
     <table class="container">
       <tr class="text-center" style="font-size: 10px; padding-right: 5px; padding-top: 10px;">
         <td>
-          <a href="<?php echo base_url('index.php/brandC');?> ">
+          <a href="C_klikfiks/brandload">
           <button style="padding: 50px 90px;  ;background-color:  #0000CD; border: none; 
   cursor: pointer;
             transition: ease all 0.3s; ">
