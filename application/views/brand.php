@@ -2,14 +2,23 @@
 <html>
 <head>
   <title>Homepage</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/home.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/brand.css">
 </head>
 
-<body>
-<
-  <div class="container ">
+<body >
+  <div class="breadcrumb ng-scope" ng-if="vm.history" style="background: white">
+  <div class="container" >
+    <img src="assets/leave.png" height="80px" width="80px" style="padding: 15px" >
+    
+                <span >Perangkat</span>
+              
+            
+      </div>
+    </div>
+
+  <div  class="container " >
     <h3 class="text-center" style="padding-bottom: 10px">5 Langkah Mudah Service di Klikfix</h3>
-    <table class="container">
+    <table class="container" >
       <tr >
         <th><img src="assets/costumer_service.png" class="image"></th>
         <th><img src="assets/pickup.png" class="image" ></th>
@@ -26,13 +35,13 @@
       </tr>
     </table>
   </div>
-</div>
 
 
 
 
-<div class="container-fluid" style="background-color: blue; padding-top: 50 px; font-size: 12px; ">
-  <div class="container">
+
+<div class="container-fluid" style="background-color: white; padding-top: 50 px; font-size: 12px; ">
+  <div class="container" >
   <nav class="navbar navbar-expand-lg navbar-light container-fluid">
   <div class="nv-bar" style="text-align: center; ">
     <ul class="navbar-nav">
