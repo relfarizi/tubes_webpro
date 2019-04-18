@@ -4,7 +4,6 @@
   <title>Homepage</title>
   <link rel="stylesheet" type="text/css" href="assets/css/home.css">
 </head>
-<body>
 
 <body>
 <div clas="container-fluid" style="background: linear-gradient(to bottom, #33cccc 1%, #bce0cd 100%) ; color: white;">
@@ -109,9 +108,9 @@
     <table class="container">
       <tr class="text-center" style="font-size: 10px; padding-right: 5px; padding-top: 10px;">
         <td>
-          <button style="padding: 50px 90px; background-color:  #0000CD; border: none; 
+          <button style="padding: 50px 90px;  ;background-color:  #0000CD; border: none; 
   cursor: pointer;
-            transition: ease all 0.3s; ">
+            transition: ease all 0.3s; " href="<?php echo base_url('brandC');?> ">
             <div>
               <img src="assets/smartphone.png">
             </div>
@@ -119,7 +118,7 @@
               <h4 style="  color: white; padding-top: 40px">Smartphone</h4>
             </div>
             <div>
-              <img src="assets/arrow.png" style="padding-top: 40px">
+              <img src="assets/arrow.png" style="padding-top: 40px" >
             </div>
           </button>
         </td>
