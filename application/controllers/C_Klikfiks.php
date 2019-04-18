@@ -13,5 +13,9 @@
 			$this->load->view('home');
 
 		}
+		public function brandload(){
+			$this->load->view('header');
+			$this->load->view('brand');
+		}
 	}
 ?>
