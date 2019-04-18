@@ -30,19 +30,49 @@
 </div>
 
 <div style="background: linear-gradient(to bottom, #E8DAEF 1%, #bce0cd 100%)">
-<div class="container"
-style="font-size:13px; padding-top: 10px; padding-bottom: 10px">
-  Butuh estimasi biaya? Tulis jenis gadget dan kerusakannya di sini dan kami akan segera memberikan estimasi biaya kepada kamu:
-  <div style="padding-top: 10px">
-    <table class="table table-bordered bg-light">
-      <tr>
-          <th>Huye</th>
-          <th>huye</th>
-          <th>huye</th>
-      </tr>
-    </table>  
+  <div styler-id="bw8u9qp2wy4pjk7s heaiz143zt8fbdzl" id="estimate" class="weird-grey-bgcolor pad-tb-lg ng-isolate-scope">
+    <div styler-id="l0xk4ls5evlwjgmx" class="container">
+      <div styler-id="kcdhy2z1po5z0s5p" class="row">
+        <div styler-id="8v3p427wheszj4a0" class="col-md-12 col-prefix header">
+          <p styler-id="ibps4lxbag32z85i" class="ng-binding">
+            <span styler-id="cembl4u6zcnv9z8p" class="ng-binding">Butuh estimasi biaya?</span> Tulis jenis gadget dan kerusakannya di sini dan kami akan segera memberikan estimasi biaya kepada kamu:
+          </p>
+        </div>
+      </div>
+      <div styler-id="2byelyuunrlkqfkd" class="col-md-12 well white-bgcolor margin-bottom-zero box estimate-form-container">
+    
+         <!--dekstop-->
+        <div styler-id="058v22958wqxbobj" class="row hidden-xs hidden-sm">
+          <div styler-id="t0tcwq5av9kyc9c5" class="col-md-4 border-right">
+            <div styler-id="ux5ciguy9boqohao" class="input-group input-transparent">
+              <input styler-id="1lum5y008oqagff5" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="JENIS GADGET KAMU" autocomplete="off" required="" ng-model="vm.model.device" ng-model-options="{ debounce: 500 }" typeahead="device as device.title for device in vm.getDevices($viewValue)" typeahead-on-select="vm.onDeviceSelected($item, $model, $label)" typeahead-no-results="vm.noResults" aria-autocomplete="list" aria-expanded="false" aria-owns="typeahead-14-1163">
+
+              <ul class="dropdown-menu ng-isolate-scope ng-hide" ng-show="isOpen() &amp;&amp; !moveInProgress" ng-style="{top: position().top+'px', left: position().left+'px'}" style="display: hide;;display: hide;" role="listbox" aria-hidden="true" typeahead-popup="" id="typeahead-14-1163" matches="matches" active="activeIdx" select="select(activeIdx)" move-in-progress="moveInProgress" query="query" position="position">
+                <!-- ngRepeat: match in matches track by $index -->
+              </ul>
+              <span styler-id="jnh9ushwux8q744h" class="input-group-addon">
+                <i styler-id="lb68cpnmks1yyyo2" class="fa fa-search"></i>'
+              </span>
+            </div>
+          </div>
+          <div styler-id="2zhk8m0rkm3virfr" class="col-md-4 border-right">
+            <div styler-id="rujeiw9ecxjxzh2h" class="input-group input-transparent">
+              <select styler-id="4scs88rjdt7pwsbq" class="form-control ng-pristine ng-untouched ng-valid" ng-model="vm.model.issue" ng-options="issue as issue.issueType.idName group by issue.parent for issue in vm.issues" ng-disabled="!vm.model.device || vm.loading" disabled="disabled">
+                <option styler-id="dv6srhxno4d9z9je" value="" disabled="" selected="selected" class="ng-binding">KERUSAKANNYA</option>
+              </select>
+              <span styler-id="l4n6rglbczkh2cyh" class="input-group-addon">
+                <i styler-id="p077fu21nxep59rx" class="fa fa-chevron-down">
+                </i>
+              </span>
+            </div>
+          </div> 
+          <div styler-id="hh7og2bbtig31qan" class="col-md-4 padding-10">
+            <button styler-id="ygjbes6j5pmtxfh5" type="button" class="btn btn-block primary-circle-btn disable-opacity btn-price ng-binding" ng-click="vm.getPriceQuote()">LIHAT BIAYANYA
+            </button>
+          </div> 
+      </div>
+    </div>
   </div>
-</div>
 </div>
 
 <div style="background-color: white; padding-bottom: 50px; padding-top: 25px ;;
