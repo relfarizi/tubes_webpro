@@ -16,7 +16,9 @@
       <div>Panggil Klikfix aja, teknisi yang siap mendatangimu ke mana saja.</div>
       <div>Gratis konsultasi, garansi 60 hari & bayar hanya kalau gadget kamu sudah selesai diperbaiki.</div>
       </h6>
+    <a href="/#">
     <button class=".btn-primary">Konsultasi Gratis</button>
+  </a>
   </div>
   <div>
   <table class="container">
@@ -108,9 +110,10 @@
     <table class="container">
       <tr class="text-center" style="font-size: 10px; padding-right: 5px; padding-top: 10px;">
         <td>
+          <a href="<?php echo base_url('index.php/brandC');?> ">
           <button style="padding: 50px 90px;  ;background-color:  #0000CD; border: none; 
   cursor: pointer;
-            transition: ease all 0.3s; " href="<?php echo base_url('brandC');?> ">
+            transition: ease all 0.3s; ">
             <div>
               <img src="assets/smartphone.png">
             </div>
@@ -121,8 +124,11 @@
               <img src="assets/arrow.png" style="padding-top: 40px" >
             </div>
           </button>
+        </a>
         </td>
-        <td><button style="padding: 50px 120px; background-color:  #0000CD; border: none; 
+        <td>
+          <a href="<?php echo base_url('index.php/brandC');?> ">
+          <button style="padding: 50px 120px; background-color:  #0000CD; border: none; 
   cursor: pointer;transition: ease all 0.3s;">
             <div>
               <img src="assets/tablet.png">
@@ -134,8 +140,12 @@
               <img src="assets/arrow.png" style="padding-top: 40px">
             </div>
           </button>
-        </td>        </td> 
-        <td><button style="padding: 50px 120px; background-color:  #0000CD; border: none; 
+        </a>
+        </td>       
+         </td> 
+        <td>
+          <a href="<?php echo base_url('index.php/brandC');?> ">
+          <button style="padding: 50px 120px; background-color:  #0000CD; border: none; 
   cursor: pointer; transition: ease all 0.3s; ">
             <div>
               <img src="assets/laptop.png">
@@ -147,6 +157,7 @@
               <img src="assets/arrow.png" style="padding-top: 40px">
             </div>
           </button>
+        </a>
         </td>
         </td>  
       </tr>
