@@ -15,6 +15,16 @@
             
       </div>
     </div>
+  <div class="container" >
+    <div class="service-col text-center ng-scope col-lg-3">
+      <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
+        <div style="background: white">
+          <img class="img-thumbnail" src="assets/ASUS.png">
+          <h3>ASUS</h3>
+          <span class="service-btn">go</span>
+        </div>
+    </div>
+  </div>
 
   <div  class="container " >
     <h3 class="text-center" style="padding-bottom: 10px">5 Langkah Mudah Service di Klikfix</h3>
