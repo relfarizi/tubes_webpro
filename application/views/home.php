@@ -16,9 +16,11 @@
       <div>Panggil Klikfix aja, teknisi yang siap mendatangimu ke mana saja.</div>
       <div>Gratis konsultasi, garansi 60 hari & bayar hanya kalau gadget kamu sudah selesai diperbaiki.</div>
       </h6>
+    <center>
     <a href="/#">
-    <button class=".btn-primary">Konsultasi Gratis</button>
-  </a>
+    <button class="btn-primary" style="margin-top: 15px;padding: 5 25 5 25; border-radius: 50px;"> <b>Konsultasi Gratis</b></button>
+    </a>
+  </center>
   </div>
   <div>
   <table class="container">
@@ -168,7 +170,7 @@
 
 
 <div style="
- padding-bottom: 50px; padding-top: 25px;background-image : url('assets/work.png');color: white">
+ padding-bottom: 50px; padding-top: 25px;background-image : url'<?php echo base_url('assets/work.png')?>';color: white">
   <div class="container ">
     <h3 class="text-center" style="padding-bottom: 10px">Keunggulan Klikfix</h3>
     <table class="container">
@@ -206,13 +208,13 @@
       <tr>
         <th><img src="<?php echo base_url("assets/media.png")?>" class="image" style="max-width: 100%;
   height: auto;"></th>
-        <th><img src="<?php echo base_urlassets/media.png")?>" class="image" style="max-width: 100%;
+        <th><img src="<?php echo base_url("assets/media.png")?>" class="image" style="max-width: 100%;
   height: auto;"></th>
-        <th><img src="<?php echo base_urlassets/media.png")?>" class="image" style="max-width: 100%;
+        <th><img src="<?php echo base_url("assets/media.png")?>" class="image" style="max-width: 100%;
   height: auto;"></th>
-        <th><img src="<?php echo base_urlassets/media.png")?>" class="image" style="max-width: 100%;
+        <th><img src="<?php echo base_url("assets/media.png")?>" class="image" style="max-width: 100%;
   height: auto;"></th>
-        <th><img src="<?php echo base_urlassets/media.png")?>" class="image" style="max-width: 100%;
+        <th><img src="<?php echo base_url("assets/media.png")?>" class="image" style="max-width: 100%;
   height: auto;"></th>
       </tr>
   </table>
