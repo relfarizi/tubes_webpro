@@ -24,7 +24,7 @@
         <div class="service-col text-center ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
         <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
             <div style="background: white">
-              <img class="img-thumbnail" src="<?php echo base_url("assets/ASUS.png")?>" height="216px" width="216px">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/ASUS.png")?>" height="248px" width="248px">
               <div style="text-align: center;">
                 <h3  >ASUS</h3>
                 <span class="service-btn"  >go</span>
@@ -34,9 +34,31 @@
           <div class="service-col text-center ng-scope col-lg-3 col-sm-6 col-xs-6" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'" ng-switch="" on="item.helpbox">
           <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
             <div style="background: white">
-              <img class="img-thumbnail" src="<?php echo base_url("assets/Xiaomi.png")?>" height="28px" width="248px">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/mi.png")?>" >
               <span>
                 <h3>Xiaomi</h3>
+                <span class="service-btn">go</span>
+              </span>
+            </div>
+          </div>
+        </div>
+          <div class="service-col text-center ng-scope col-lg-3 col-sm-5 col-xs-6" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
+          <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
+            <div style="background: white">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/samsung.png")?>">
+              <span>
+                <h3>samsung</h3>
+                <span class="service-btn">go</span>
+              </span>
+            </div>
+          </div>
+        </div>
+          <div class="service-col text-center ng-scope col-lg-3 col-sm-6 col-xs-6" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'" ng-switch="" on="item.helpbox">
+          <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
+            <div style="background: white">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/oppo.png")?>" >
+              <span>
+                <h3>oppo</h3>
                 <span class="service-btn">go</span>
               </span>
             </div>
@@ -45,9 +67,20 @@
           <div class="service-col text-center ng-scope col-lg-3 col-sm-6 col-xs-6" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
           <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
             <div style="background: white">
-              <img class="img-thumbnail" src="<?php echo base_url("assets/ASUS.png")?>">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/infinix.png")?>">
               <span>
-                <h3>ASUS</h3>
+                <h3>infinix</h3>
+                <span class="service-btn">go</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="service-col text-center ng-scope col-lg-3 col-sm-6 col-xs-6" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'or der'"  ng-switch="" on="item.helpbox">
+          <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
+            <div style="background: white">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/apple.png")?>">
+              <span>
+                <h3>apple</h3>
                 <span class="service-btn">go</span>
               </span>
             </div>
