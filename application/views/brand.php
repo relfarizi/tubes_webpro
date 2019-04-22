@@ -21,7 +21,7 @@
       <div class="col-lg-12 margin-top-lg 
       ">
       <div class="row" ng-switch="" on="vm.config.mode>
-        <div class="service-col text-center" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
+        <div class="service-col text-center ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
         <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
             <div style="background: white">
               <img class="img-thumbnail" src="assets/ASUS.png" height="216px" width="216px">
