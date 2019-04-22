@@ -73,7 +73,7 @@
         <td>Langkah 2 : Kurir kami akan mengambil gadget Anda</td>
         <td>Langkah 3 : Teknisi akan mendiagnosa kerusakan</td>
         <td>Langkah 4 : Gadget Anda diperbaiki oleh teknisi kami</td>
-        <td>Langkah 5 : Kurir mengantar gadget ke tempat Anda< /td>
+        <td>Langkah 5 : Kurir mengantar gadget ke tempat Anda</td>
       </tr>
     </table>
   </div>
