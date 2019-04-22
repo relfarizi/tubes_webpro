@@ -18,7 +18,8 @@
   <div class="container margin-bottom-lg ng-scope">
     <div class="row ng-scope" ng-if="!vm.end &amp;&amp; !vm.serviceloadingwheel" style=""> 
       <div class=" container">
-      <div class="col-lg-12 margin-top-lg">
+      <div class="col-lg-12 margin-top-lg 
+      ">
       <div class="row" ng-switch="" on="vm.config.mode>
         <div class="service-col text-center ng-scope col-lg-3 col-sm-7 col-xs-7" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
         <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
