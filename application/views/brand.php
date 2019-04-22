@@ -2,13 +2,13 @@
 <html>
 <head>
   <title>Homepage</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/brand.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/brand.css")?>">
 </head>
 
 <body >
   <div class="breadcrumb ng-scope" ng-if="vm.history" style="background: white">
   <div class="container" >
-    <img src="assets/leave.png" height="80px" width="80px" style="padding: 15px" >
+    <img src="<?php echo base_url("assets/leave.png")?>" height="80px" width="80px" style="padding: 15px" >
     
                 <span >Perangkat</span>
               
@@ -24,7 +24,7 @@
         <div class="service-col text-center ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
         <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
             <div style="background: white">
-              <img class="img-thumbnail" src="assets/ASUS.png" height="216px" width="216px">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/ASUS.png")?>" height="216px" width="216px">
               <div style="text-align: center;">
                 <h3  >ASUS</h3>
                 <span class="service-btn"  >go</span>
@@ -34,7 +34,7 @@
           <div class="service-col text-center ng-scope col-lg-3 col-sm-6 col-xs-6" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'" ng-switch="" on="item.helpbox">
           <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
             <div style="background: white">
-              <img class="img-thumbnail" src="assets/Xiaomi.png" height="28px" width="248px">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/Xiaomi.png")?>" height="28px" width="248px">
               <span>
                 <h3>Xiaomi</h3>
                 <span class="service-btn">go</span>
@@ -45,7 +45,7 @@
           <div class="service-col text-center ng-scope col-lg-3 col-sm-6 col-xs-6" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
           <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
             <div style="background: white">
-              <img class="img-thumbnail" src="assets/ASUS.png">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/ASUS.png")?>">
               <span>
                 <h3>ASUS</h3>
                 <span class="service-btn">go</span>
@@ -62,11 +62,11 @@
     <h3 class="text-center" style="padding-bottom: 10px">5 Langkah Mudah Service di Klikfix</h3>
     <table class="container" >
       <tr >
-        <th><img src="assets/costumer_service.png" class="image"></th>
-        <th><img src="assets/pickup.png" class="image" ></th>
-        <th><img src="assets/diagnosa.png" class="image"></th>
-        <th><img src="assets/repair.png" class="image"></th>
-        <th><img src="assets/delivery.png" class="image" style="height: 160%"></th>
+        <th><img src="<?php echo base_url("assets/costumer_service.png")?>" class="image"></th>
+        <th><img src="<?php echo base_url("assets/pickup.png")?>" class="image" ></th>
+        <th><img src="<?php echo base_url("assets/diagnosa.png")?>" class="image"></th>
+        <th><img src="<?php echo base_url("assets/repair.png")?>" class="image"></th>
+        <th><img src="<?php echo base_url("assets/delivery.png")?>" class="image" style="height: 160%"></th>
       </tr>
       <tr class="text-center" style="font-size: 10px; padding-right: 5px; padding-top: 10px ">
         <td>Langkah 1 : Hubungi kami untuk membuat janji bertemu</td>
