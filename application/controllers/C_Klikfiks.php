@@ -17,5 +17,10 @@
 			$this->load->view('header');
 			$this->load->view('brand');
 		}
+
+		public function tentang_kamiload(){
+			$this->load->view('header');
+			$this->load->view('tentang_kami');
+		}
 	}
 ?>

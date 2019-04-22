@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Homepage</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/home.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/home.css")?>">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
   <div>
   <table class="container">
       <tr >
-        <th><img src="assets/klikfiks.png" class="image" style="max-width: 100%;
+        <th><img src="<?php echo base_url("assets/klikfiks.png")?>" class="image" style="max-width: 100%;
   height: auto;"></th>
       </tr>
   </table>
@@ -82,11 +82,11 @@
     <h3 class="text-center" style="padding-bottom: 10px">5 Langkah Mudah Service di Klikfix</h3>
     <table class="container">
       <tr >
-        <th><img src="assets/costumer_service.png" class="image"></th>
-        <th><img src="assets/pickup.png" class="image" ></th>
-        <th><img src="assets/diagnosa.png" class="image"></th>
-        <th><img src="assets/repair.png" class="image"></th>
-        <th><img src="assets/delivery.png" class="image" style="height: 160%"></th>
+        <th><img src="<?php echo base_url("assets/costumer_service.png")?>" class="image"></th>
+        <th><img src="<?php echo base_url("assets/pickup.png")?>" class="image" ></th>
+        <th><img src="<?php echo base_url("assets/diagnosa.png")?>" class="image"></th>
+        <th><img src="<?php echo base_url("assets/repair.png")?>" class="image"></th>
+        <th><img src="<?php echo base_url("assets/delivery.png")?>" class="image" style="height: 160%"></th>
       </tr>
       <tr class="text-center" style="font-size: 10px; padding-right: 5px; padding-top: 10px ">
         <td>Langkah 1 : Hubungi kami untuk membuat janji bertemu</td>
@@ -115,13 +115,13 @@
   cursor: pointer;
             transition: ease all 0.3s; ">
             <div>
-              <img src="assets/smartphone.png">
+              <img src="<?php echo base_url("assets/smartphone.png")?>">
             </div>
             <div>
               <h4 style="  color: white; padding-top: 40px">Smartphone</h4>
             </div>
             <div>
-              <img src="assets/arrow.png" style="padding-top: 40px" >
+              <img src="<?php echo base_url("assets/arrow.png")?>" style="padding-top: 40px" >
             </div>
           </button>
         </a>
@@ -131,13 +131,13 @@
           <button style="padding: 50px 120px; background-color:  #0000CD; border: none; 
   cursor: pointer;transition: ease all 0.3s;">
             <div>
-              <img src="assets/tablet.png">
+              <img src="<?php echo base_url("assets/tablet.png")?>">
             </div>
             <div>
               <h4 style="  color: white; padding-top: 40px">Tablet</h4>
             </div>
             <div>
-              <img src="assets/arrow.png" style="padding-top: 40px">
+              <img src="<?php echo base_url("assets/arrow.png")?>" style="padding-top: 40px">
             </div>
           </button>
         </a>
@@ -148,13 +148,13 @@
           <button style="padding: 50px 120px; background-color:  #0000CD; border: none; 
   cursor: pointer; transition: ease all 0.3s; ">
             <div>
-              <img src="assets/laptop.png">
+              <img src="<?php echo base_url("assets/laptop.png")?>">
             </div>
             <div>
               <h4 style="  color: white; padding-top: 40px">Laptop</h4>
             </div>
             <div>
-              <img src="assets/arrow.png" style="padding-top: 40px">
+              <img src="<?php echo base_url("assets/arrow.png")?>" style="padding-top: 40px">
             </div>
           </button>
         </a>
@@ -173,10 +173,10 @@
     <h3 class="text-center" style="padding-bottom: 10px">Keunggulan Klikfix</h3>
     <table class="container">
       <tr>
-        <th><img src="assets/money.png" class="image" style="height : 150%"></th>
-        <th><img src="assets/pickup.png" class="image"></th>
-        <th><img src="assets/garansi.png" class="image"></th>
-        <th><img src="assets/teknisi.png" class="image"></th>
+        <th><img src="<?php echo base_url("assets/money.png")?>" class="image" style="height : 150%"></th>
+        <th><img src="<?php echo base_url("assets/pickup.png")?>" class="image"></th>
+        <th><img src="<?php echo base_url("assets/garansi.png")?>" class="image"></th>
+        <th><img src="<?php echo base_url("assets/teknisi.png")?>" class="image"></th>
       </tr>
       <tr class="text-center" style="font-size: 10px; padding-right: 5px; color: white">
         <td>
@@ -204,15 +204,15 @@
   <h3 class="text-center" style="padding-bottom: 10px">Pernah diliput oleh</h3>
   <table class="container" >
       <tr>
-        <th><img src="assets/media.png" class="image" style="max-width: 100%;
+        <th><img src="<?php echo base_url("assets/media.png")?>" class="image" style="max-width: 100%;
   height: auto;"></th>
-        <th><img src="assets/media.png" class="image" style="max-width: 100%;
+        <th><img src="<?php echo base_urlassets/media.png")?>" class="image" style="max-width: 100%;
   height: auto;"></th>
-        <th><img src="assets/media.png" class="image" style="max-width: 100%;
+        <th><img src="<?php echo base_urlassets/media.png")?>" class="image" style="max-width: 100%;
   height: auto;"></th>
-        <th><img src="assets/media.png" class="image" style="max-width: 100%;
+        <th><img src="<?php echo base_urlassets/media.png")?>" class="image" style="max-width: 100%;
   height: auto;"></th>
-        <th><img src="assets/media.png" class="image" style="max-width: 100%;
+        <th><img src="<?php echo base_urlassets/media.png")?>" class="image" style="max-width: 100%;
   height: auto;"></th>
       </tr>
   </table>
