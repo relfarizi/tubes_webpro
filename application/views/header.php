@@ -1,7 +1,7 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/header.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url("bootstrap/css/bootstrap.css");?>">
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/header.css");?>">
 </head>
 <body style="background: linear-gradient(to bottom, #33cccc 1%, #bce0cd 100%);">
 <div style="color: white;">
