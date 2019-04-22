@@ -15,16 +15,45 @@
             
       </div>
     </div>
-  <div class="container" >
-    <div class="service-col text-center ng-scope col-lg-3">
-      <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
-        <div style="background: white">
-          <img class="img-thumbnail" src="assets/ASUS.png">
-          <span>
-            <h3>ASUS</h3>
-            <span class="service-btn">go</span>
-          </span>
+  <div class="container margin-bottom-lg ng-scope">
+    <div class="row ng-scope" ng-if="!vm.end &amp;&amp; !vm.serviceloadingwheel" style=""> 
+      <div class=" container">
+      <div class="col-lg-12 margin-top-lg">
+      <div class="row" ng-switch="" on="vm.config.mode>
+        <div class="service-col text-center ng-scope col-lg-3 col-sm-7 col-xs-7" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
+        <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
+            <div style="background: white">
+              <img class="img-thumbnail" src="assets/ASUS.png" height="216px" width="216px">
+              <div style="text-align: center;">
+                <h3  >ASUS</h3>
+                <span class="service-btn"  >go</span>
+              </div>
+            </div>
+          </div>
+          <div class="service-col text-center ng-scope col-lg-3 col-sm-6 col-xs-6" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'" ng-switch="" on="item.helpbox">
+          <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
+            <div style="background: white">
+              <img class="img-thumbnail" src="assets/Xiaomi.png" height="28px" width="248px">
+              <span>
+                <h3>Xiaomi</h3>
+                <span class="service-btn">go</span>
+              </span>
+            </div>
+          </div>
         </div>
+          <div class="service-col text-center ng-scope col-lg-3 col-sm-6 col-xs-6" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
+          <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
+            <div style="background: white">
+              <img class="img-thumbnail" src="assets/ASUS.png">
+              <span>
+                <h3>ASUS</h3>
+                <span class="service-btn">go</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
     </div>
   </div>
 
