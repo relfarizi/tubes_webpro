@@ -30,9 +30,8 @@
         </a>
     </div>
 
-    <div style="background-color: white; padding-bottom: 50px; padding-top: 25px ;;
-    ">
-        <div class="container ">
+    <div class="container-fluid" style="background-color: white; padding-bottom: 50px; padding-top: 25px;">
+        <div>
             <h3 class="text-center" style="padding-bottom: 10px">5 Langkah Mudah Service di Klikfix</h3>
             <table class="container">
                 <tr >
@@ -54,7 +53,7 @@
     </div>
 
     <div style="padding-bottom: 50px; padding-top: 25px;background-image : url('assets/work.png');color: white">
-        <div class="container ">
+        <div class="container-fluid ">
             <h3 class="text-center" style="padding-bottom: 10px">Keunggulan Klikfix</h3>
             <table class="container">
                 <tr>
