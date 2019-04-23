@@ -129,7 +129,7 @@
         </a>
         </td>
         <td>
-          <a href="<?php echo base_url('index.php/C_klikfiks/brandload');?>  ">
+          <a href="<?php echo base_url('index.php/C_klikfiks/brandTload');?>  ">
           <button style="padding: 50px 120px; background-color:  #0000CD; border: none; 
   cursor: pointer;transition: ease all 0.3s;">
             <div>
@@ -146,7 +146,7 @@
         </td>       
          </td> 
         <td>
-          <a href="<?php echo base_url('index.php/C_klikfiks/brandload');?> ">
+          <a href="<?php echo base_url('index.php/C_klikfiks/brandLload');?> ">
           <button style="padding: 50px 120px; background-color:  #0000CD; border: none; 
   cursor: pointer; transition: ease all 0.3s; ">
             <div>
