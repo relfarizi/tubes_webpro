@@ -7,11 +7,13 @@
 <div id="header">
 <div style="color: white;">
 	<nav class="navbar navbar-expand-lg navbar-light container-fluid ">
-  <a class="navbar-brand col-lg" href="#">Klikfiks</a>
+  <a class="navbar-brand col-lg" href="<?php echo base_url("index.php/C_klikfiks") ?>">
+  <img  id="logo" style="hight:30px">
+  </a>
   <div class="nv-bar">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link col-lg" href="#">Tentang Kami </a>
+        <a class="nav-link col-lg tulisan" href="<?php echo base_url("index.php/C_klikfiks/tentang_kamiload") ?>">Tentang Kami </a>
       </li>
       <li class="nav-item active">
         <a class="nav-link col-lg" href="#">Track Order</a>
@@ -40,10 +42,13 @@ function scrollFunction() {
     document.getElementById("header").style.background="white";
     document.getElementById("header").style.position="sticky";
     document.getElementById("header").style.top=0;
+    //document.getElementByClass("logo").src"<?php echo base_url("assets/logo.png")?>" 
   } else {
      
     document.getElementById("header").style.background="";
     document.getElementById("header").style.position="relative";
+    document.getElementsByClassName("tulisan").style.color="white";
+    //document.getElementById("logo").src"<?php echo base_url("assets/logo.png")?>" 
   }
 }
 </script>
