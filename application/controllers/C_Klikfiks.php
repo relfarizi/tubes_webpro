@@ -38,6 +38,11 @@
 			$this->load->view('kerusakanLaptop');
 			$this->load->view('footer');
 		}
+		public function Tappleload(){
+			$this->load->view('header_sec');
+			$this->load->view('seriesTapple');
+			$this->load->view('footer');
+		}
 
 		public function tentang_kamiload(){
 			$this->load->view('header_sec');
