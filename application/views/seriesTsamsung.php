@@ -25,26 +25,30 @@
       <div class="col-lg-12 margin-top-lg 
       ">
       <div class="row" ng-switch="" on="vm.config.mode>
-        <div class="service-col text-center" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
-        <a>
+        <div class="service-col text-center ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
         <div  ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
-          <a href="<?php echo base_url("index.php/C_klikfiks/kerusakanpLoad") ?>">
             <div class="container col-lg-12 col-sm-6 col-xs-6" style="background-color: white">
-              <img class="img-thumbnail" src="<?php echo base_url("assets/ASUS.png")?>" height="222px" width="222px">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/Galaxy_Tab_7.0.png")?>" height="120px" width="120px">
               <div style="text-align: center;">
-                <h3  >ASUS</h3>
-                <span class="service-btn"  ><img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px"></span>
+                <h3  >Galaxy Tab 7.0</h3>
+                <span class="service-btn"  >
+                  <a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');?> ">
+                    <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
+                  </a>
+                </span>
               </div>
             </div>
           </div>
-        </a>
           <div class="service-col text-center ng-scope " ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'" ng-switch="" on="item.helpbox">
           <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
             <div class="container col-lg-12" style="background-color: white">
-              <img class="img-thumbnail" src="<?php echo base_url("assets/mi.png")?>" height="222px" width="222px">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/Galaxy_Tab_8.9.png")?>" height="120px" width="120px">
               <span>
-                <h3>Xiaomi</h3>
-                <span class="service-btn"><img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px"></span>
+                <h3>Galaxy Tab 8.9</h3>
+                <span class="service-btn">
+                  <a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');?> ">
+                    <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
+                  </a></span>
               </span>
             </div>
           </div>
@@ -52,10 +56,12 @@
           <div class="service-col text-center ng-scope " ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
           <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
             <div class="container col-lg-12" style="background-color: white">
-              <img class="img-thumbnail" src="<?php echo base_url("assets/samsung.png")?>" height="222px" width="222px">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/Galaxy_Tab_7.7.png")?>" height="120px" width="120px">
               <span>
-                <h3>samsung</h3>
-                <span class="service-btn"><img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px"></span>
+                <h3>Galaxy Tab 7.7</h3>
+                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');?> ">
+                    <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
+                  </a></span>
               </span>
             </div>
           </div>
@@ -63,10 +69,12 @@
           <div class="service-col text-center ng-scope " ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'" ng-switch="" on="item.helpbox">
           <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
             <div class="container col-lg-12" style="background-color: white">
-              <img class="img-thumbnail" src="<?php echo base_url("assets/oppo.png")?>" height="222px" width="222px">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/Galaxy_Tab_10.1.png")?>" height="120px" width="120px">
               <span>
-                <h3>oppo</h3>
-                <span class="service-btn"><img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px"></span>
+                <h3>Galaxy Tab 10.1</h3>
+                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');?> ">
+                    <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
+                  </a></span>
               </span>
             </div>
           </div>
@@ -74,10 +82,12 @@
           <div class="service-col text-center ng-scope " ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
           <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
             <div class="container col-lg-12" style="background-color: white">
-              <img class="img-thumbnail" src="<?php echo base_url("assets/infinix.png")?>"height="222px" width="222px">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/galaxy-tab-s2.jpg")?>"height="140px" width="150px">
               <span>
-                <h3>infinix</h3>
-                <span class="service-btn"><img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px"></span>
+                <h3>Galaxy Tab s2</h3>
+                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');?> ">
+                    <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
+                  </a></span>
               </span>
             </div>
           </div>
@@ -85,10 +95,51 @@
         <div class="service-col text-center ng-scope " ng-switch-default="" ng-repeat="item in vm.items | orderBy:'or der'"  ng-switch="" on="item.helpbox">
           <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
             <div class="container col-lg-12" style="background-color: white">
-              <img class="img-thumbnail" src="<?php echo base_url("assets/apple.png")?>" height="222px" width="222px">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/galaxy-tab-s3.jpg")?>" height="120px" width="120px">
               <span>
-                <h3>apple</h3>
-                <span class="service-btn"><img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px"></span>
+                <h3>Galaxy Tab s3 </h3>
+                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');?> ">
+                    <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
+                  </a></span>
+              </span>
+            </div>
+          </div>
+        </div>
+          <div class="service-col text-center ng-scope " ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'" ng-switch="" on="item.helpbox">
+          <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
+            <div class="container col-lg-12" style="background-color: white">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/galaxy-tab-e.jpg")?>" height="120px" width="120px">
+              <span>
+                <h3>Galaxy Tab E</h3>
+                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');?> ">
+                    <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
+                  </a></span>
+              </span>
+            </div>
+          </div>
+        </div>
+          <div class="service-col text-center ng-scope " ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
+          <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
+            <div class="container col-lg-12" style="background-color: white">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/galaxy-tab-active.jpg")?>"height="120px" width="120px">
+              <span>
+                <h3>Galaxy Tab Active</h3>
+                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');?> ">
+                    <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
+                  </a></span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="service-col text-center ng-scope " ng-switch-default="" ng-repeat="item in vm.items | orderBy:'or der'"  ng-switch="" on="item.helpbox">
+          <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
+            <div class="container col-lg-12" style="background-color: white">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/samsung-galaxy-tab-view.jpg")?>" height="120px" width="120px">
+              <span>
+                <h3>galaxy tab view</h3>
+                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');?> ">
+                    <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
+                  </a></span>
               </span>
             </div>
           </div>
@@ -97,6 +148,7 @@
       </div>
     </div>
   </div>
+  <div style="padding-bottom: 200px"></div>
 
   <div  class="container " >
     <h3 class="text-center" style="padding-bottom: 10px">5 Langkah Mudah Service di Klikfix</h3>

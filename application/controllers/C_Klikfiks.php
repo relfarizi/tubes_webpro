@@ -43,6 +43,11 @@
 			$this->load->view('seriesTapple');
 			$this->load->view('footer');
 		}
+		public function Tsamsungload(){
+			$this->load->view('header_sec');
+			$this->load->view('seriesTsamsung');
+			$this->load->view('footer');
+		}
 
 		public function tentang_kamiload(){
 			$this->load->view('header_sec');
