@@ -1,6 +1,6 @@
 <?php
  // write your name and student id here
-class Mahasiswa_model extends CI_model
+class databaseUse extends CI_model
 {
 
 	public function getAllbrand()
@@ -65,15 +65,20 @@ class Mahasiswa_model extends CI_model
 	}
 
 	public function reg()
-    {
+	{
      
       $data = array(
+      	'idOrder' =>'',
+      	'idDetail'=> '1',
+      	'jam' => "12:00",
+      	'date' => "12 Sept 2019",
         'nama' => $this->input->post('nama'),
         'email' => $this->input->post('email'),
         'telepon' => $this->input->post('telepon'),
         'alamat' => $this->input->post('alamat'),
         'pos' => $this->input->post('pos'),
         'catatan' => $this->input->post('catatan')
-      );
-      return $this->db->insert('tbl_user', $data);
-    }
+     	 );
+      return $this->db->insert('orders', $data);
+ 	 }
+}

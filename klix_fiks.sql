@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 23 Apr 2019 pada 17.44
--- Versi Server: 10.1.29-MariaDB
--- PHP Version: 7.2.0
+-- Generation Time: Apr 23, 2019 at 06:24 PM
+-- Server version: 10.1.38-MariaDB
+-- PHP Version: 7.3.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `detailkeluhan`
+-- Table structure for table `detailkeluhan`
 --
 
 CREATE TABLE `detailkeluhan` (
@@ -38,7 +38,7 @@ CREATE TABLE `detailkeluhan` (
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `keluhan`
+-- Table structure for table `keluhan`
 --
 
 CREATE TABLE `keluhan` (
@@ -48,7 +48,7 @@ CREATE TABLE `keluhan` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `keluhan`
+-- Dumping data for table `keluhan`
 --
 
 INSERT INTO `keluhan` (`idKeluhan`, `namaKeluhan`, `keterangan`) VALUES
@@ -61,14 +61,19 @@ INSERT INTO `keluhan` (`idKeluhan`, `namaKeluhan`, `keterangan`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `orders`
+-- Table structure for table `orders`
 --
 
 CREATE TABLE `orders` (
   `idOrder` int(3) NOT NULL,
   `idDetail` int(3) NOT NULL,
+  `jam` varchar(5) NOT NULL,
   `date` varchar(20) NOT NULL,
-  `phone` varchar(15) NOT NULL,
+  `nama` varchar(30) NOT NULL,
+  `email` varchar(30) NOT NULL,
+  `telepon` varchar(20) NOT NULL,
+  `alamat` varchar(50) NOT NULL,
+  `pos` varchar(20) NOT NULL,
   `catatan` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -116,20 +121,20 @@ ALTER TABLE `keluhan`
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `idOrder` int(3) NOT NULL AUTO_INCREMENT;
+  MODIFY `idOrder` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
--- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
+-- Constraints for dumped tables
 --
 
 --
--- Ketidakleluasaan untuk tabel `detailkeluhan`
+-- Constraints for table `detailkeluhan`
 --
 ALTER TABLE `detailkeluhan`
   ADD CONSTRAINT `detailkeluhan_ibfk_1` FOREIGN KEY (`idkeluhan`) REFERENCES `keluhan` (`idKeluhan`);
 
 --
--- Ketidakleluasaan untuk tabel `orders`
+-- Constraints for table `orders`
 --
 ALTER TABLE `orders`
   ADD CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`idDetail`) REFERENCES `detailkeluhan` (`idDetail`);
