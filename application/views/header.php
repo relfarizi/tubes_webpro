@@ -16,7 +16,7 @@
         <a class="nav-link col-lg tulisan" href="<?php echo base_url("index.php/C_klikfiks/tentang_kamiload") ?>">Tentang Kami </a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link col-lg" href="#">Track Order</a>
+        <a class="nav-link col-lg" href="<?php echo base_url("index.php/C_klikfiks/orderload") ?>">Track Order</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link col-lg" href="#">Blog</a>

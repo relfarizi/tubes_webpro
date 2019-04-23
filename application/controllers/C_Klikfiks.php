@@ -32,5 +32,11 @@
 			$this->load->view('tentang_kami');
 			$this->load->view('footer');
 		}
+
+		public function orderload(){
+			$this->load->view('header');
+			$this->load->view('order');
+			$this->load->view('footer');
+		}
 	}
 ?>
