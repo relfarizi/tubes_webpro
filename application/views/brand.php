@@ -8,13 +8,14 @@
 <body >
   <div class="breadcrumb ng-scope" ng-if="vm.history" style="background: white">
   <div class="container" >
-    <img src="<?php echo base_url("assets/leave.png")?>" height="80px" width="80px" style="padding: 15px" >
+    <a href="<?php echo base_url('index.php/C_klikfiks/index');?> ">
+      <img src="<?php echo base_url("assets/leave.png")?>" height="80px" width="80px" style="padding: 15px" >
     
                 <span >Perangkat</span>
-              
+    </a>          
             
-      </div>
-    </div>
+  </div>
+  </div>
   <div class="container margin-bottom-lg ng-scope">
     <div class="row ng-scope" ng-if="!vm.end &amp;&amp; !vm.serviceloadingwheel" style=""> 
       <div class="col-lg-12">
@@ -30,7 +31,7 @@
               <img class="img-thumbnail" src="<?php echo base_url("assets/ASUS.png")?>" height="222px" width="222px">
               <div style="text-align: center;">
                 <h3  >ASUS</h3>
-                <span class="service-btn"  >go</span>
+                <span class="service-btn"  ><img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px"></span>
               </div>
             </div>
           </div>
@@ -40,7 +41,7 @@
               <img class="img-thumbnail" src="<?php echo base_url("assets/mi.png")?>" height="222px" width="222px">
               <span>
                 <h3>Xiaomi</h3>
-                <span class="service-btn">go</span>
+                <span class="service-btn"><img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px"></span>
               </span>
             </div>
           </div>
@@ -51,7 +52,7 @@
               <img class="img-thumbnail" src="<?php echo base_url("assets/samsung.png")?>" height="222px" width="222px">
               <span>
                 <h3>samsung</h3>
-                <span class="service-btn">go</span>
+                <span class="service-btn"><img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px"></span>
               </span>
             </div>
           </div>
@@ -62,7 +63,7 @@
               <img class="img-thumbnail" src="<?php echo base_url("assets/oppo.png")?>" height="222px" width="222px">
               <span>
                 <h3>oppo</h3>
-                <span class="service-btn">go</span>
+                <span class="service-btn"><img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px"></span>
               </span>
             </div>
           </div>
@@ -73,7 +74,7 @@
               <img class="img-thumbnail" src="<?php echo base_url("assets/infinix.png")?>"height="222px" width="222px">
               <span>
                 <h3>infinix</h3>
-                <span class="service-btn">go</span>
+                <span class="service-btn"><img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px"></span>
               </span>
             </div>
           </div>
@@ -84,7 +85,7 @@
               <img class="img-thumbnail" src="<?php echo base_url("assets/apple.png")?>" height="222px" width="222px">
               <span>
                 <h3>apple</h3>
-                <span class="service-btn">go</span>
+                <span class="service-btn"><img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px"></span>
               </span>
             </div>
           </div>
