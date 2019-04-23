@@ -11,6 +11,7 @@
 		{
 			$this->load->view('header');
 			$this->load->view('home');
+			$this->load->view('footer');
 
 		}
 		public function brandload(){
@@ -29,6 +30,7 @@
 		public function tentang_kamiload(){
 			$this->load->view('header');
 			$this->load->view('tentang_kami');
+			$this->load->view('footer');
 		}
 	}
 ?>
