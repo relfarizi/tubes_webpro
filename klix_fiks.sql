@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 23 Apr 2019 pada 16.36
+-- Generation Time: 23 Apr 2019 pada 17.44
 -- Versi Server: 10.1.29-MariaDB
 -- PHP Version: 7.2.0
 
@@ -25,6 +25,42 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Struktur dari tabel `detailkeluhan`
+--
+
+CREATE TABLE `detailkeluhan` (
+  `idDetail` int(10) NOT NULL,
+  `namaseries` varchar(15) NOT NULL,
+  `kisaranHarga` varchar(30) NOT NULL,
+  `idkeluhan` int(3) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `keluhan`
+--
+
+CREATE TABLE `keluhan` (
+  `idKeluhan` int(3) NOT NULL,
+  `namaKeluhan` varchar(15) NOT NULL,
+  `keterangan` varchar(150) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `keluhan`
+--
+
+INSERT INTO `keluhan` (`idKeluhan`, `namaKeluhan`, `keterangan`) VALUES
+(1, 'Batrai', 'Kerusakan pada connector,Kerusakan pada fleksibel baterai,Kerusakan pada internal '),
+(2, 'Mati Total', 'Kerusakan internal perangkat,Gangguan IC power,Gangguan IC USB atau IC Charging,Kerusakan pada emmc,Korsleting atau arus pendek'),
+(3, 'Touchscreen', 'Layar retak,Kerusakan layar fleksibel, Gangguan internal mainboard,gangguan software, dan kerusakan penghubung mainboard,Kerusakan pada IC Touchscreen'),
+(4, 'LCD/layar', 'Layar pecah,Pixel mati,Tidak ada tampilan, Kerusakan penghubung atau connector kotor Kerusakan internal perangkat, Gangguan IC power'),
+(5, 'charging', 'Kerusakan baterai, Kerusakan pada penghubung charger, gangguan pada mainboard,Kerusakan pada IC USB');
+
+-- --------------------------------------------------------
+
+--
 -- Struktur dari tabel `orders`
 --
 
@@ -41,6 +77,19 @@ CREATE TABLE `orders` (
 --
 
 --
+-- Indexes for table `detailkeluhan`
+--
+ALTER TABLE `detailkeluhan`
+  ADD PRIMARY KEY (`idDetail`),
+  ADD KEY `idkeluhan` (`idkeluhan`);
+
+--
+-- Indexes for table `keluhan`
+--
+ALTER TABLE `keluhan`
+  ADD PRIMARY KEY (`idKeluhan`);
+
+--
 -- Indexes for table `orders`
 --
 ALTER TABLE `orders`
@@ -52,6 +101,18 @@ ALTER TABLE `orders`
 --
 
 --
+-- AUTO_INCREMENT for table `detailkeluhan`
+--
+ALTER TABLE `detailkeluhan`
+  MODIFY `idDetail` int(10) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `keluhan`
+--
+ALTER TABLE `keluhan`
+  MODIFY `idKeluhan` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
@@ -60,6 +121,12 @@ ALTER TABLE `orders`
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
 --
+
+--
+-- Ketidakleluasaan untuk tabel `detailkeluhan`
+--
+ALTER TABLE `detailkeluhan`
+  ADD CONSTRAINT `detailkeluhan_ibfk_1` FOREIGN KEY (`idkeluhan`) REFERENCES `keluhan` (`idKeluhan`);
 
 --
 -- Ketidakleluasaan untuk tabel `orders`
