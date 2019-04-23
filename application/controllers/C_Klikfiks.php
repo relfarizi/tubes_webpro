@@ -5,6 +5,7 @@
 		{
 			parent::__construct();
 			//$this->load->view('Header');
+			$this->load->model("databaseUse");
 		}
 
 		public function index()
@@ -63,7 +64,7 @@
 
 		public function buatjanji(){
 
-			// /$this->databaseUse->buatjanji();
+			//$this->databaseUse->reg();
 			redirect(site_url("C_Klikfiks"));
 	}
 
