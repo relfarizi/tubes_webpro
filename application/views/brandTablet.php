@@ -8,13 +8,14 @@
 <body >
   <div class="breadcrumb ng-scope" ng-if="vm.history" style="background: white">
   <div class="container" >
-    <img src="<?php echo base_url("assets/leave.png")?>" height="80px" width="80px" style="padding: 15px" >
+    <a href="<?php echo base_url('index.php/C_klikfiks/index');?> ">
+      <img src="<?php echo base_url("assets/leave.png")?>" height="80px" width="80px" style="padding: 15px" >
     
                 <span >Perangkat</span>
-              
+    </a>       
             
-      </div>
     </div>
+  </div>
   <div class="container margin-bottom-lg ng-scope">
     <div class="row ng-scope" ng-if="!vm.end &amp;&amp; !vm.serviceloadingwheel" style=""> 
       <div class="col-lg-12">
@@ -24,13 +25,13 @@
       <div class="col-lg-12 margin-top-lg 
       ">
       <div class="row" ng-switch="" on="vm.config.mode>
-        <div class="service-col text-center" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
+        <div class="service-col text-center ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
         <div  ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
             <div class="container col-lg-12 col-sm-6 col-xs-6" style="background-color: white">
               <img class="img-thumbnail" src="<?php echo base_url("assets/samsung.png")?>" height="222px" width="222px">
               <div style="text-align: center;">
                 <h3  >samsung</h3>
-                <span class="service-btn"  >go</span>
+                <span class="service-btn"  ><img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px"></span>
               </div>
             </div>
           </div>
@@ -40,7 +41,7 @@
               <img class="img-thumbnail" src="<?php echo base_url("assets/apple.png")?>" height="222px" width="222px">
               <span>
                 <h3>apple</h3>
-                <span class="service-btn">go</span>
+                <span class="service-btn"><img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px"></span>
               </span>
             </div>
           </div>
