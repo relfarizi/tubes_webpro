@@ -63,3 +63,17 @@ class Mahasiswa_model extends CI_model
 		$this->db->where('idSeries', $id);
 		$this->db->delete('mahasiswa');
 	}
+
+	public function reg()
+    {
+     
+      $data = array(
+        'nama' => $this->input->post('nama'),
+        'email' => $this->input->post('email'),
+        'telepon' => $this->input->post('telepon'),
+        'alamat' => $this->input->post('alamat'),
+        'pos' => $this->input->post('pos'),
+        'catatan' => $this->input->post('catatan')
+      );
+      return $this->db->insert('tbl_user', $data);
+    }

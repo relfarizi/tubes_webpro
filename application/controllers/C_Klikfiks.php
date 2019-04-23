@@ -60,5 +60,12 @@
 			$this->load->view('order');
 			$this->load->view('footer');
 		}
+
+		public function buatjanji(){
+
+			// /$this->databaseUse->buatjanji();
+			redirect(site_url("C_Klikfiks"));
+	}
+
 	}
 ?>

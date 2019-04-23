@@ -19,14 +19,18 @@
 <!-- form -->
 
 	<div class="container" style="background: white ">
-		<form>
+		<div class="container">
+    	<div class="row mt-3">
+        <div class="col">
+            <div class="card">
+		<?php echo form_open("C_klikfiks/buatjanji", '')?>
 		<center>
-			<div>
+			<div class="card-header">
 				<h6>
 					TENTUKAN TANGGAL & JAM
 				</h6>
 			</div>
-			<div class="row">
+			<div class="row card-body">
 				<div class="col-sm-8">
 				
 					<input class="date-input ng-pristine ng-untouched ng-valid ng-isolate-scope ng-valid-date ng-hide" init-date="vm.holder.today" min-date="vm.holder.today" show-weeks="false" datepicker-popup="EEEE, dd MMMM yyyy" ng-model="vm.holder.date" is-open="vm.date.opened" datepicker-options="vm.dateOptions" close-text="Close" show-button-bar="false" ng-hide="true" date-disabled="vm.dateDisabled(date, mode)">
@@ -51,43 +55,52 @@
 				</p>
 			</div>
 		</center>
+
 	</div>
+	</div>
+	</div>
+	</div>
+
+	</div>
+	<div class="container">
+    <div class="row mt-3">
+        <div class="col">
+            <div class="card">
 		<center>
-			
-				<div>
+				<div class="card-header">
 					<h6>
 						DATA & ALAMAT
 					</h6>
 				</div>
 		</center>
-				<div class="panel panel-default" >
+				<div class="panel panel-default card-body" >
 					<div class="panel-body">
 						<div class="row">
 							<div class=" col-sm-12" style="padding-bottom: 20px">
-								<input class="form-control " name="nama_anda" placeholder="Nama lengkap Anda">
+								<input class="form-control " name="nama" placeholder="Nama lengkap Anda">
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-sm-6" style="padding-bottom: 20px">
-								<input class="form-control " name="nama_anda" placeholder="Nama lengkap Anda">
+								<input class="form-control " name="email" placeholder="Alamat Email Anda">
 							</div>
 							<div class="col-sm-6" style="padding-bottom: 20px">
-								<input class="form-control " name="nama_anda" placeholder="Nama lengkap Anda">
+								<input class="form-control " name="telepon" placeholder="Nomor telepon Anda">
 							</div>
 						</div>
 
 						<div class="row">
 							<div class=" col-sm-12" style="padding-bottom: 20px">
-								<input class="form-control " name="nama_anda" placeholder="Nama lengkap Anda" style="height: 100px">
+								<input class="form-control " name="alamat" placeholder="Masukkan Alamat Anda" style="height: 100px">
 							</div>
 						</div>
 
 						<div class="row">
 							<div class="col-sm-6" style="padding-bottom: 20px">
-								<input class="form-control " name="nama_anda" placeholder="Nama lengkap Anda">
+								<input class="form-control " name="pos" placeholder="Kode Pos Anda">
 							</div>
 							<div class="col-sm-6" style="padding-bottom: 20px">
-								<input class="form-control " name="nama_anda" placeholder="Nama lengkap Anda">
+								<input class="form-control " name="catatan" placeholder="Catatan">
 							</div>
 						</div>
 						
@@ -102,15 +115,19 @@
 						<center>
 							<div class="col-xs-12 col-sm-4 col-md-4 col-sm-offset-4 col-md-offset-4 margin-top-md" style="padding-bottom: 50px">
 								<div class="col-sm-6">
-									<button type="submit" class="btn btn-block btn-confirm primary-block-btn text-uppercase light-green-textcolor ng-binding" style="background-color: blue; color: white "> Lanjutkan</button>
+									<button type="submit" name="buatjanji" class="btn btn-block btn-confirm primary-block-btn text-uppercase light-green-textcolor ng-binding" style="background-color: blue; color: white "> Lanjutkan</button>
 								</div>
 							</div>
 						</center>
 
 					</div>
 				</div>
-			</form>
+			<?php echo form_close() ;?>
 	</div>
+</div>
+</div>
+</div>
+</div>
 
 
 
