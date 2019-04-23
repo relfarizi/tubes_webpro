@@ -27,6 +27,7 @@
       <div class="row" ng-switch="" on="vm.config.mode>
         <div class="service-col text-center" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
         <div  ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
+          <a href="<?php echo base_url('index.php/C_klikfiks/detailTload');?> ">
             <div class="container col-lg-12 col-sm-6 col-xs-6" style="background-color: white">
               <img class="img-thumbnail" src="<?php echo base_url("assets/layar.png")?>" height="239px" width="239px">
               <div style="text-align: center;">
@@ -35,6 +36,7 @@
               </div>
             </div>
           </div>
+          </a>
           <div class="service-col text-center ng-scope " ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'" ng-switch="" on="item.helpbox">
           <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
             <div class="container col-lg-12" style="background-color: white">
