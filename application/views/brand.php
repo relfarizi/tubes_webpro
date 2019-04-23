@@ -17,24 +17,27 @@
     </div>
   <div class="container margin-bottom-lg ng-scope">
     <div class="row ng-scope" ng-if="!vm.end &amp;&amp; !vm.serviceloadingwheel" style=""> 
-      <div class=" container">
+      <div class="col-lg-12">
+        <p class="legend-sub-title text-center text-uppercase ng-binding"></p>
+        <h2 class="legend-title text-center ng-binding"></h2>
+      </div>
       <div class="col-lg-12 margin-top-lg 
       ">
       <div class="row" ng-switch="" on="vm.config.mode>
-        <div class="service-col text-center ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
-        <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
-            <div style="background: white">
-              <img class="img-thumbnail" src="<?php echo base_url("assets/ASUS.png")?>" height="248px" width="248px">
+        <div class="service-col text-center" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
+        <div  ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
+            <div class="container col-lg-12 col-sm-6 col-xs-6" style="background-color: white">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/ASUS.png")?>" height="222px" width="222px">
               <div style="text-align: center;">
                 <h3  >ASUS</h3>
                 <span class="service-btn"  >go</span>
               </div>
             </div>
           </div>
-          <div class="service-col text-center ng-scope col-lg-3 col-sm-6 col-xs-6" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'" ng-switch="" on="item.helpbox">
+          <div class="service-col text-center ng-scope " ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'" ng-switch="" on="item.helpbox">
           <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
-            <div style="background: white">
-              <img class="img-thumbnail" src="<?php echo base_url("assets/mi.png")?>" >
+            <div class="container col-lg-12" style="background-color: white">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/mi.png")?>" height="222px" width="222px">
               <span>
                 <h3>Xiaomi</h3>
                 <span class="service-btn">go</span>
@@ -42,10 +45,10 @@
             </div>
           </div>
         </div>
-          <div class="service-col text-center ng-scope col-lg-3 col-sm-5 col-xs-6" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
+          <div class="service-col text-center ng-scope " ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
           <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
-            <div style="background: white">
-              <img class="img-thumbnail" src="<?php echo base_url("assets/samsung.png")?>">
+            <div class="container col-lg-12" style="background-color: white">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/samsung.png")?>" height="222px" width="222px">
               <span>
                 <h3>samsung</h3>
                 <span class="service-btn">go</span>
@@ -53,10 +56,10 @@
             </div>
           </div>
         </div>
-          <div class="service-col text-center ng-scope col-lg-3 col-sm-6 col-xs-6" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'" ng-switch="" on="item.helpbox">
+          <div class="service-col text-center ng-scope " ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'" ng-switch="" on="item.helpbox">
           <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
-            <div style="background: white">
-              <img class="img-thumbnail" src="<?php echo base_url("assets/oppo.png")?>" >
+            <div class="container col-lg-12" style="background-color: white">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/oppo.png")?>" height="222px" width="222px">
               <span>
                 <h3>oppo</h3>
                 <span class="service-btn">go</span>
@@ -64,10 +67,10 @@
             </div>
           </div>
         </div>
-          <div class="service-col text-center ng-scope col-lg-3 col-sm-6 col-xs-6" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
+          <div class="service-col text-center ng-scope " ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
           <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
-            <div style="background: white">
-              <img class="img-thumbnail" src="<?php echo base_url("assets/infinix.png")?>">
+            <div class="container col-lg-12" style="background-color: white">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/infinix.png")?>"height="222px" width="222px">
               <span>
                 <h3>infinix</h3>
                 <span class="service-btn">go</span>
@@ -75,10 +78,10 @@
             </div>
           </div>
         </div>
-        <div class="service-col text-center ng-scope col-lg-3 col-sm-6 col-xs-6" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'or der'"  ng-switch="" on="item.helpbox">
+        <div class="service-col text-center ng-scope " ng-switch-default="" ng-repeat="item in vm.items | orderBy:'or der'"  ng-switch="" on="item.helpbox">
           <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
-            <div style="background: white">
-              <img class="img-thumbnail" src="<?php echo base_url("assets/apple.png")?>">
+            <div class="container col-lg-12" style="background-color: white">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/apple.png")?>" height="222px" width="222px">
               <span>
                 <h3>apple</h3>
                 <span class="service-btn">go</span>
