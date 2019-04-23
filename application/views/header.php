@@ -3,7 +3,8 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url("bootstrap/css/bootstrap.css");?>">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/header.css");?>">
 </head>
-<body style="background: linear-gradient(to bottom, #33cccc 1%, #bce0cd 100%);">
+<body >
+<div style="background: linear-gradient(to bottom, #33cccc 1%, #bce0cd 100%);">
 <div id="header">
 <div style="color: white;">
 	<nav class="navbar navbar-expand-lg navbar-light container-fluid ">
@@ -32,7 +33,7 @@
 </nav>
 </div>
 </div>
-
+</div>
 <script type="text/javascript">
   window.onscroll = function() {scrollFunction()};
 
