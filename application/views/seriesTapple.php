@@ -109,7 +109,7 @@
       </div>
     </div>
   </div>
-
+  <div style="padding-bottom: 200px"></div>
   <div  class="container " >
     <h3 class="text-center" style="padding-bottom: 10px">5 Langkah Mudah Service di Klikfix</h3>
     <table class="container" >
