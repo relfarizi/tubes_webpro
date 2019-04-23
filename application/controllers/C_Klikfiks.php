@@ -17,6 +17,14 @@
 			$this->load->view('header');
 			$this->load->view('brand');
 		}
+		public function brandTload(){
+			$this->load->view('header');
+			$this->load->view('brandTablet');
+		}
+		public function brandLload(){
+			$this->load->view('header');
+			$this->load->view('brandLaptop');
+		}
 
 		public function tentang_kamiload(){
 			$this->load->view('header');
