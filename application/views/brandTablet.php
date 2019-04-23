@@ -26,6 +26,7 @@
       ">
       <div class="row" ng-switch="" on="vm.config.mode>
         <div class="service-col text-center ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
+        <a href="<?php echo base_url('index.php/C_klikfiks/Tsamsungload');?> ">
         <div  ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
             <div class="container col-lg-12 col-sm-6 col-xs-6" style="background-color: white">
               <img class="img-thumbnail" src="<?php echo base_url("assets/samsung.png")?>" height="222px" width="222px">
@@ -35,6 +36,7 @@
               </div>
             </div>
           </div>
+        </a>
           <a href="<?php echo base_url('index.php/C_klikfiks/Tappleload');?> ">
           <div class="service-col text-center ng-scope " ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'" ng-switch="" on="item.helpbox">
           <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
