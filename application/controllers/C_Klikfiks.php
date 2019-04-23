@@ -21,10 +21,27 @@
 		public function brandTload(){
 			$this->load->view('header_sec');
 			$this->load->view('brandTablet');
+			$this->load->view('footer');
 		}
 		public function brandLload(){
 			$this->load->view('header_sec');
 			$this->load->view('brandLaptop');
+			$this->load->view('footer');
+		}
+		public function kerusakanPload(){
+			$this->load->view('header_sec');
+			$this->load->view('kerusakanphone');
+			$this->load->view('footer');
+		}
+		public function kerusakanLload(){
+			$this->load->view('header_sec');
+			$this->load->view('kerusakanLaptop');
+			$this->load->view('footer');
+		}
+		public function Tappleload(){
+			$this->load->view('header_sec');
+			$this->load->view('seriesTapple');
+			$this->load->view('footer');
 		}
 
 		public function tentang_kamiload(){
