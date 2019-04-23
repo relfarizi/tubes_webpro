@@ -139,9 +139,31 @@
         </div>
     </div>
 
-    <div class="container-fluid" style="background-color: grey; color: white;padding-top: 30px;padding-bottom: 50px">
+    <div class="container-fluid" style="background-color: #e0e0e0; color: white;padding-top: 30px;padding-bottom: 50px">
         <div class="container ">
             <h3 class="text-center" style="padding-bottom: 5px; color: black">Kontak Kami</h3>
+        </div>
+        <div class="container ">
+            <div class="text-right" style="color: black;">
+                <h2 class="text-right"> Klikfix:</h2></div>
+            </div>
+            <div class="text-right" style="color: black;">
+                <div>Komplek Ruko Roxy Mas </div>
+                <div>Blok C2 No. 4-5, Jl. KH </div>
+                <div>Hasyim Ashari No 125,  </div>
+                <div>Jakarta Pusat 10150,</div>
+                <div>Indonesia</div>
+            </div>
+            <div class="text-right">
+                <button class="btn btn-large white-bgcolor margin-bot-15 button-chat" ng-click="openChat()">
+                    <div class="row centered-vertically">
+                        <div class="col-md-9 col-xs-9 text-md-center pad-left-0">
+                            <span class="ng-binding">Konsultasi Online
+                            </span>
+                        </div>
+                    </div>
+                </button>
+            </div>
         </div>
     </div>
 
