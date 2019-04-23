@@ -37,9 +37,8 @@
         </center>
     </div>
 
-    <div style="background-color: white; padding-bottom: 50px; padding-top: 30px ;;
-    ">
-        <div class="container-fluid ">
+    <div class="container-fluid" style="background-color: white; padding-bottom: 50px; padding-top: 50px">
+        <div class="container ">
             <h3 class="text-center" style="padding-bottom: 10px; color: black">5 Langkah Mudah Service di Klikfix</h3>
             <table class="container">
                 <tr >
@@ -142,6 +141,9 @@
     <div class="container-fluid" style="background-color: #e0e0e0; color: white;padding-top: 30px;padding-bottom: 50px">
         <div class="container ">
             <h3 class="text-center" style="padding-bottom: 5px; color: black">Kontak Kami</h3>
+        </div>
+        <div style="padding-bottom: 12px; z-index: 0; position: absolute; bottom: 0px; left: 351px;">
+            <img src="<?php echo base_url("https://maps.gstatic.com/mapfiles/embed/images/google4.png")?>" style="width: 52px;">
         </div>
         <div class="container ">
             <div class="text-right" style="color: black;">
