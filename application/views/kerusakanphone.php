@@ -3,6 +3,7 @@
 <head>
   <title>Homepage</title>
   <link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/brand.css")?>">
+  <?php session_start(); ?>
 </head>
 
 <body >
@@ -11,7 +12,7 @@
     <a href="<?php echo base_url('index.php/C_klikfiks/index');?> ">
       <img src="<?php echo base_url("assets/leave.png")?>" height="80px" width="80px" style="padding: 15px" >
     
-                <span >Perangkat</span>
+                <span ><?php echo $_SESSION["series"]  ?></span>
     </a>          
             
   </div>
@@ -24,15 +25,15 @@
       </div>
       <div class="col-lg-12 margin-top-lg 
       ">
-      <div class="row" ng-switch="" on="vm.config.mode>
-        <div class="service-col text-center" ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
+      <div class="row" ng-switch="" on="vm.config.mode"service-col text-center ng-scope ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
+        
         <div  ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
-          <a href="<?php echo base_url('index.php/C_klikfiks/detailTload');?> ">
+          <a href="<?php echo base_url('index.php/C_klikfiks/detailTload'); $_SESSION["kerusakan"]="4";?> ">
             <div class="container col-lg-12 col-sm-6 col-xs-6" style="background-color: white">
               <img class="img-thumbnail" src="<?php echo base_url("assets/layar.png")?>" height="239px" width="239px">
               <div style="text-align: center;">
                 <h3  >layar</h3>
-                <span class="service-btn"  ><img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px"></span>
+                <span class="service-btn"  ><img class="img-thumbnail" src="<?php echo base_url("assets/arr.png");?>" height="50px" width="50px"></span>
               </div>
             </div>
           </div>
