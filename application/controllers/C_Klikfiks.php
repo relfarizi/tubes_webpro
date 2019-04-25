@@ -51,6 +51,8 @@
 		}
 		public function detailTload(){
 			$this->load->view('header_sec');
+
+			#$data['kerusakan']= $this->databaseUse->getAllbrand();
 			$this->load->view('detailKeluhanT');
 			$this->load->view('footer');
 		}
