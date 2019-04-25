@@ -3,6 +3,7 @@
 <head>
   <title>Homepage</title>
   <link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/brand.css")?>">
+  <?php session_start(); ?>
 </head>
 
 <body >
@@ -10,8 +11,10 @@
   <div class="container" >
     <a href="<?php echo base_url('index.php/C_klikfiks/index');?> ">
       <img src="<?php echo base_url("assets/leave.png")?>" height="80px" width="80px" style="padding: 15px" >
-    
-                <span >Perangkat</span>
+                
+                <span ><?php echo $_SESSION["series"]; ?> 
+                </span>
+
     </a>          
             
   </div>
@@ -27,7 +30,7 @@
         
         <div  ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
             <div class="container col-lg-12 col-sm-6 col-xs-6" style="background-color: white">
-              <img class="img-thumbnail" src="<?php echo base_url("assets/ASUS.png")?>" height="222px" width="222px">
+              <img class="img-thumbnail" src="<?php echo base_url("assets/iPadAir2.png")?>" height="192px" width="192px">
               <div style="text-align: center;">
                 <span class="service-btn"  ></span>
               </div>
@@ -39,7 +42,7 @@
             <div class="container " style="background-color: white ;padding-left: : 1000p">
               
               <span>
-                <h3>Xiaomi</h3>
+                <h4>Layar pecah</h4><h4>Pixel mati</h4><h4> Kerusakan penghubung </h4><h4> Gangguan IC power</h4>
                 
               </span>
             </div>
@@ -83,7 +86,7 @@
               </div>
               <div class="col-xs-12 margin-top">
                 <button class="button">
-                  <a class="btn light-primary-block-btn ng-binding" ng-click="vm.goTo('step1')" ng-disabled="!vm.agree" shape="color">Buat Janji</a>
+                  <a class="btn light-primary-block-btn ng-binding" ng-click="vm.goTo('step1')" ng-disabled="!vm.agree" href="<?php echo base_url('index.php/C_klikfiks/orderload');?>">Buat Janji</a>
                 </button>
               </div>
               <div class="panel-body">
