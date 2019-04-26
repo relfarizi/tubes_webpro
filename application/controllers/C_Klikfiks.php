@@ -71,11 +71,31 @@
 			$this->load->view('footer');
 		}
 
-		public function buatjanji(){
+		public function buatjanji()
+		{
 
-			//$this->databaseUse->reg();
-			redirect(site_url("C_Klikfiks"));
+			$this->form_validation->set_rules('id_detail', 'id_detail', 'required');
+			$this->form_validation->set_rules('jam', 'jam', 'required');
+			$this->form_validation->set_rules('tanggal', 'tanggal', 'required');
+			$this->form_validation->set_rules('nama', 'nama', 'required');
+			$this->form_validation->set_rules('email', 'email', 'required');
+			$this->form_validation->set_rules('alamat', 'alamat', 'required');
+			$this->form_validation->set_rules('telepon', 'telepon', 'required');
+			$this->form_validation->set_rules('pos', 'pos', 'required');
+			$this->form_validation->set_rules('catatan', 'catatan', 'required');
+
+			if ($this->form_validation->run() == TRUE) {
+				$data['title'] = "LOGIN";
+				$this->load->view('header_sec');
+				$this->load->view('order', $data);
+				$this->load->view('footer');
+			}else {
+					$this->databaseUse->reg();
+					redirect(site_url("C_Klikfiks/orderload"));
+		}
+		}
 	}
 
-	}
+
+
 ?>
