@@ -12,7 +12,7 @@
     <a href="<?php echo base_url('index.php/C_klikfiks/index');?> ">
       <img src="<?php echo base_url("assets/leave.png")?>" height="80px" width="80px" style="padding: 15px" >
                 
-                <span ><?php echo $_SESSION["series"]; ?> <span> <?php echo "$data->namaKeluhan"; ?> </span> 
+                <span ><?php echo $_SESSION["series"]; ?> <span> <?php echo "$data1->namaKeluhan"; ?> </span> 
                 </span>
 
     </a>          
@@ -42,7 +42,7 @@
             <div class="container " style="background-color: white ;padding-left: : 1000p">
               
               <span>
-                <h4>Layar pecah</h4><h4>Pixel mati</h4><h4> Kerusakan penghubung </h4><h4> Gangguan IC power</h4>
+                <p><?php echo "$data1->keterangan"; ?></p>
                 
               </span>
             </div>
@@ -53,13 +53,12 @@
         <div class="panel panel-default">
           <div class="panel-body border-bottom">
             <div class="col-md-12 service-info-deck2 text-center">
-              <p class="text-uppercase black-textcolor margin-bottom-zero font-11 ng-binding">Harga Pasaran</p>
-              <p class="another-grey-bgcolor font-14 ng-binding">IDR 650.000</p>
+              
               <p class="text-uppercase black-textcolor font-11 margin-bottom-zero ng-binding">
                 <i class="fa fa-fw fa-tag light-green-textcolor">
                 </i> Harga Klikfix Dimulai Dari
               </p>
-              <p class="font-26 medium-purple-textcolor ng-binding">IDR 500.000</p>
+              <p class="font-26 medium-purple-textcolor ng-binding"><?php echo "$detail->kisaranHarga"; ?></p>
               <p class="font-11 devany-black-textcolor margin-bottom-zero ng-binding">Harga Klikfix 20% - 30% lebih murah dari harga rata-rata pasaran, berdasarkan hasil riset tahun 2017 - 2018 di area Jabodetabek.</p>
             </div>
             <div class="col-md-12 pad-top-2">
