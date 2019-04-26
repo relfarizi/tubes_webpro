@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 4.7.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 23, 2019 at 06:24 PM
--- Server version: 10.1.38-MariaDB
--- PHP Version: 7.3.3
+-- Generation Time: 26 Apr 2019 pada 19.14
+-- Versi Server: 10.1.29-MariaDB
+-- PHP Version: 7.2.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `detailkeluhan`
+-- Struktur dari tabel `detailkeluhan`
 --
 
 CREATE TABLE `detailkeluhan` (
@@ -35,10 +35,17 @@ CREATE TABLE `detailkeluhan` (
   `idkeluhan` int(3) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data untuk tabel `detailkeluhan`
+--
+
+INSERT INTO `detailkeluhan` (`idDetail`, `namaseries`, `kisaranHarga`, `idkeluhan`) VALUES
+(1, 'iPad Air 2', '250.000  - 317.000', 4);
+
 -- --------------------------------------------------------
 
 --
--- Table structure for table `keluhan`
+-- Struktur dari tabel `keluhan`
 --
 
 CREATE TABLE `keluhan` (
@@ -48,32 +55,27 @@ CREATE TABLE `keluhan` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `keluhan`
+-- Dumping data untuk tabel `keluhan`
 --
 
 INSERT INTO `keluhan` (`idKeluhan`, `namaKeluhan`, `keterangan`) VALUES
 (1, 'Batrai', 'Kerusakan pada connector,Kerusakan pada fleksibel baterai,Kerusakan pada internal '),
 (2, 'Mati Total', 'Kerusakan internal perangkat,Gangguan IC power,Gangguan IC USB atau IC Charging,Kerusakan pada emmc,Korsleting atau arus pendek'),
 (3, 'Touchscreen', 'Layar retak,Kerusakan layar fleksibel, Gangguan internal mainboard,gangguan software, dan kerusakan penghubung mainboard,Kerusakan pada IC Touchscreen'),
-(4, 'LCD/layar', 'Layar pecah,Pixel mati,Tidak ada tampilan, Kerusakan penghubung atau connector kotor Kerusakan internal perangkat, Gangguan IC power'),
+(4, 'LCD/layar', 'Layar pecah\r\nPixel mati\r\nKerusakan penghubung\r\n internal perangkat'),
 (5, 'charging', 'Kerusakan baterai, Kerusakan pada penghubung charger, gangguan pada mainboard,Kerusakan pada IC USB');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `orders`
+-- Struktur dari tabel `orders`
 --
 
 CREATE TABLE `orders` (
   `idOrder` int(3) NOT NULL,
   `idDetail` int(3) NOT NULL,
-  `jam` varchar(5) NOT NULL,
   `date` varchar(20) NOT NULL,
-  `nama` varchar(30) NOT NULL,
-  `email` varchar(30) NOT NULL,
-  `telepon` varchar(20) NOT NULL,
-  `alamat` varchar(50) NOT NULL,
-  `pos` varchar(20) NOT NULL,
+  `phone` varchar(15) NOT NULL,
   `catatan` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -109,7 +111,7 @@ ALTER TABLE `orders`
 -- AUTO_INCREMENT for table `detailkeluhan`
 --
 ALTER TABLE `detailkeluhan`
-  MODIFY `idDetail` int(10) NOT NULL AUTO_INCREMENT;
+  MODIFY `idDetail` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `keluhan`
@@ -121,20 +123,20 @@ ALTER TABLE `keluhan`
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `idOrder` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `idOrder` int(3) NOT NULL AUTO_INCREMENT;
 
 --
--- Constraints for dumped tables
+-- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
 --
 
 --
--- Constraints for table `detailkeluhan`
+-- Ketidakleluasaan untuk tabel `detailkeluhan`
 --
 ALTER TABLE `detailkeluhan`
   ADD CONSTRAINT `detailkeluhan_ibfk_1` FOREIGN KEY (`idkeluhan`) REFERENCES `keluhan` (`idKeluhan`);
 
 --
--- Constraints for table `orders`
+-- Ketidakleluasaan untuk tabel `orders`
 --
 ALTER TABLE `orders`
   ADD CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`idDetail`) REFERENCES `detailkeluhan` (`idDetail`);
