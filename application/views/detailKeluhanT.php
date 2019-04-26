@@ -41,6 +41,7 @@
           <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
             <div class="container " style="background-color: white ;padding-left: : 1000p">
               
+              
               <span>
                 <p><?php echo "$data1->keterangan"; ?></p>
                 
