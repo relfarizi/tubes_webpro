@@ -52,7 +52,8 @@
 		public function detailTload(){
 			$this->load->view('header_sec');
 
-			$data['data'] = $this->databaseUse->getAllbrand();
+			$data['data1'] = $this->databaseUse->getAllbrand();
+			$data['detail'] = $this->databaseUse->getdetailKeluhan();
 			$this->load->view('detailKeluhanT', $data);
 			$this->load->view('footer');
 		}
