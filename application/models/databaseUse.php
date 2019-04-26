@@ -5,8 +5,10 @@ class databaseUse extends CI_model
 
 	public function getAllbrand()
 	{
-		$query = $this->db->get("keluhan");
-		return $query->result_array();
+		
+		$this->db->where(4);
+		$query = $this->db->query("SELECT * FROM keluhan");
+		return $query->row();
 	}
 
 	
