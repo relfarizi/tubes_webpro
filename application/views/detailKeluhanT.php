@@ -12,7 +12,7 @@
     <a href="<?php echo base_url('index.php/C_klikfiks/index');?> ">
       <img src="<?php echo base_url("assets/leave.png")?>" height="80px" width="80px" style="padding: 15px" >
                 
-                <span ><?php echo $_SESSION["series"]; ?> <span> <?php echo $data['namaKeluhan']; ?> </span> 
+                <span ><?php echo $_SESSION["series"]; ?> <span> <?php echo "$data->namaKeluhan"; ?> </span> 
                 </span>
 
     </a>          
