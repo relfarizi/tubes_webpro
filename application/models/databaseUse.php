@@ -30,7 +30,7 @@ class databaseUse extends CI_model
 			"phone" => $this->input->post('phone', true),
 		];
 
-		//use query builder to insert $data to table "mahasiswa"
+		//use query builder to insert $data
 		$this->db->insert("orders",$data);
 	}
 
@@ -52,6 +52,22 @@ class databaseUse extends CI_model
 		//use query builder to delete data based on id
 		$this->db->where('idSeries', $id);
 		$this->db->delete('mahasiswa');
+	}
+
+	public function reg(){
+		$data = [
+			"iddetail"=>1,
+			"jam"=>"12.00",
+			"date"=>"12 sept 2019",
+			"nama" => $this->input->post('nama', true),
+			"email" => $this->input->post('email', true),
+			"telepon"=>$this->input->post('telepon', true),
+			"alamat"=>$this->input->post('alamat', true),
+			"pos" => $this->input->post('pos', true),
+			"catatan" => $this->input->post('catatan', true)
+		];
+		return $this->db->insert('orders', $data);
+	
 	}
 
 
