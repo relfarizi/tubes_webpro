@@ -4,7 +4,7 @@
   
   <title>Homepage</title>
   <link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/brand.css")?>">
-  <?php session_start(); ?>
+  
 </head>
 
 <body >
