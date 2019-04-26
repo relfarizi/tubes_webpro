@@ -21,6 +21,7 @@
 		}
 		public function brandTload(){
 			$this->load->view('header_sec');
+			
 			$this->load->view('brandTablet');
 			$this->load->view('footer');
 		}
