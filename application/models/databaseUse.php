@@ -6,20 +6,18 @@ class databaseUse extends CI_model
 	public function getAllbrand()
 	{
 		
-		$this->db->where(4);
-		$query = $this->db->query("SELECT * FROM keluhan");
+		
+		$query = $this->db->query("SELECT * FROM keluhan where idKeluhan = 4");
 		return $query->row();
 	}
 
 	
 	
 
-	public function getdetailKeluhan($idKeluhan,$idSeries)
-	{
-		$array =array('idKeluhan' => $idKeluhan, 'idSeries' => $idSeries);
-		$this->db->where($array);
-		$query = $this->db->get("detaikeluhan");
-		return $query->result_array();
+	public function getdetailKeluhan()
+	{	
+		$query = $this->db->query("SELECT * FROM detailkeluhan where namaSeries= 'iPad Air 2'");
+		return $query->row();
 	}
 
 
