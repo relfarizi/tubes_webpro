@@ -5,7 +5,7 @@
 		{
 			parent::__construct();
 			//$this->load->view('Header');
-			$this->load->model("databaseUse");
+			$this->load->model('databaseUse');
 		}
 
 		public function index()
@@ -52,7 +52,7 @@
 		public function detailTload(){
 			$this->load->view('header_sec');
 
-			$data['kerusakan'] = $this->databaseUse->getAllbrand();
+			$result['data'] = $this->databaseUse->getAllbrand();
 			$this->load->view('detailKeluhanT');
 			$this->load->view('footer');
 		}
