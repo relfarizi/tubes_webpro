@@ -137,23 +137,7 @@
             </div>
           </div>
         </div>
-        <div class="service-col text-center ng-scope " ng-switch-default="" ng-repeat="item in vm.items | orderBy:'or der'"  ng-switch="" on="item.helpbox">
-          <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
-            <div class="container col-lg-12" style="background-color: white ">
-              
-              <span>
-                <img class="img-thumbnail" src="<?php echo base_url("assets/2.png")?>" height="260px" width="260px">
-                <h3>hubungi kami</h3>
-                
-                <span class="service-btn">
-                  <div>
-                    <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
-                  </div>
-                </span>
-              </span>
-            </div>
-          </div>
-        </div>
+       
       </div>
       </div>
     </div>
