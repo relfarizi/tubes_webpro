@@ -53,7 +53,7 @@
 			$this->load->view('header_sec');
 
 			$data['data'] = $this->databaseUse->getAllbrand();
-			$this->load->view('detailKeluhanT');
+			$this->load->view('detailKeluhanT', $data);
 			$this->load->view('footer');
 		}
 
