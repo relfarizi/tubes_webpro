@@ -208,15 +208,15 @@
   <h3 class="text-center" style="padding-bottom: 10px">Pernah diliput oleh</h3>
   <table class="container" >
       <tr>
-        <th><img src="<?php echo base_url("assets/media.png")?>" class="image" style="max-width: 100%;
+        <th><img src="<?php echo base_url("assets/media1.png")?>" class="image" style="max-width: 100%;
   height: auto;"></th>
-        <th><img src="<?php echo base_url("assets/media.png")?>" class="image" style="max-width: 100%;
+        <th><img src="<?php echo base_url("assets/media1.png")?>" class="image" style="max-width: 100%;
   height: auto;"></th>
-        <th><img src="<?php echo base_url("assets/media.png")?>" class="image" style="max-width: 100%;
+        <th><img src="<?php echo base_url("assets/media1.png")?>" class="image" style="max-width: 100%;
   height: auto;"></th>
-        <th><img src="<?php echo base_url("assets/media.png")?>" class="image" style="max-width: 100%;
+        <th><img src="<?php echo base_url("assets/media1.png")?>" class="image" style="max-width: 100%;
   height: auto;"></th>
-        <th><img src="<?php echo base_url("assets/media.png")?>" class="image" style="max-width: 100%;
+        <th><img src="<?php echo base_url("assets/media1.png")?>" class="image" style="max-width: 100%;
   height: auto;"></th>
       </tr>
   </table>
