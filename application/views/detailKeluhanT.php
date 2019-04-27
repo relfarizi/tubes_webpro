@@ -27,10 +27,10 @@
       </div>
       <div class="col-lg-12 margin-top-lg 
       ">
-      <div class="row" ng-switch="" on="vm.config.mode"service-col text-center ng-scope ng-switch-default="" ng-repeat="item in vm.items | orderBy:'order'"  ng-switch="" on="item.helpbox">
+      <div class="row" >
         
-        <div  ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
-            <div class="container col-lg-12 col-sm-6 col-xs-6" style="background-color: white">
+        <div>
+            <div class="container col-lg-8 " style="background-color: white">
               <img class="img-thumbnail" src="<?php echo base_url("assets/iPadAir2.png")?>" height="192px" width="192px">
               <div style="text-align: center;">
                 <span class="service-btn"  ></span>
@@ -39,8 +39,8 @@
           </div>
         
           
-          <div ng-switch-default -ng-click="vm.nextService(item)" class="ng-scope">
-            <div class="container " style="background-color: white ;padding-left: : 1000p">
+          <div >
+            <div class="container col-lg-5 " style="background-color: white ">
               
               
               <span>
