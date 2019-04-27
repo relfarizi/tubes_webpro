@@ -103,6 +103,7 @@
 							</div>
 							<div class="col-sm-6">
 								Harga Dimulai Dari
+								<p><?php echo $_SESSION["harga"]?></p>
 							</div>
 						</div>
 						<center>
