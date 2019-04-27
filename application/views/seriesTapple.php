@@ -13,7 +13,7 @@
     <a href="<?php echo base_url('index.php/C_klikfiks/brandTload');?> ">
       <img src="<?php echo base_url("assets/leave.png")?>" height="80px" width="80px" style="padding: 15px" >
     
-                <span >Perangkat</span>
+                <span >Perangkat model </span><span ><?php echo $_SESSION["model"]    ?></span>
     </a>          
             
   </div>
