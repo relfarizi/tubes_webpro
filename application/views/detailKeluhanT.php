@@ -60,7 +60,9 @@
                 <i class="fa fa-fw fa-tag light-green-textcolor">
                 </i> Harga Klikfix Dimulai Dari
               </p>
-              <p class="font-26 medium-purple-textcolor ng-binding"><?php echo "$detail->kisaranHarga"; ?></p>
+              <p class="font-26 medium-purple-textcolor ng-binding"><?php echo "$detail->kisaranHarga"; ?>
+                <?php  $_SESSION["harga"]= $detail->kisaranHarga; ?>
+              </p>
               <p class="font-11 devany-black-textcolor margin-bottom-zero ng-binding">Harga Klikfix 20% - 30% lebih murah dari harga rata-rata pasaran, berdasarkan hasil riset tahun 2017 - 2018 di area Jabodetabek.</p>
             </div>
             <div class="col-md-12 pad-top-2">
