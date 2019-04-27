@@ -19,7 +19,7 @@
       <div>Gratis konsultasi, garansi 60 hari & bayar hanya kalau gadget kamu sudah selesai diperbaiki.</div>
       </h6>
     <center>
-    <a href="/#">
+    <a href="#">
     <button class="btn-primary" style="margin-top: 15px;padding: 5 25 5 25; border-radius: 50px;"> <b>Konsultasi Gratis</b></button>
     </a>
   </center>

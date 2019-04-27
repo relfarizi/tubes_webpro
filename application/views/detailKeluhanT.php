@@ -18,6 +18,7 @@
     </a>          
             
   </div>
+  
   <div class="container margin-bottom-lg ng-scope" style="padding-top: 100px">
     <div class="row ng-scope" ng-if="!vm.end &amp;&amp; !vm.serviceloadingwheel" style=""> 
       <div class="col-lg-12">
@@ -120,7 +121,7 @@
   
 
           
-
+  
   <div  class="container " style="padding-top: 100px">
     <h3 class="text-center" style="padding-bottom: 10px">5 Langkah Mudah Service di Klikfix</h3>
     <table class="container" >
@@ -169,6 +170,7 @@
   </div>
 </nav>
   </div>
-</div>
+
+
 </body>
 </html>

@@ -33,19 +33,12 @@
 			<div class="row card-body">
 				<div class="col-sm-8">
 				
-					<input class="date-input ng-pristine ng-untouched ng-valid ng-isolate-scope ng-valid-date ng-hide" init-date="vm.holder.today" min-date="vm.holder.today" show-weeks="false" datepicker-popup="EEEE, dd MMMM yyyy" ng-model="vm.holder.date" is-open="vm.date.opened" datepicker-options="vm.dateOptions" close-text="Close" show-button-bar="false" ng-hide="true" date-disabled="vm.dateDisabled(date, mode)">
+					<input class="date-input ng-pristine ng-untouched ng-valid ng-isolate-scope ng-valid-date ng-hide" name="tanggal" placeholder="tanggal">
 				
 				</div>
 				
 				<div class="dropdown col-sm-1">
-				    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Jam
-				    	<span class="caret"></span>
-					</button>
-				    	<ul class="dropdown-menu">
-				      		<li><a href="#">HTML</a></li>
-						    <li><a href="#">CSS</a></li>
-						    <li><a href="#">JavaScript</a></li>
-				    	</ul>
+				    <input class="date-input ng-pristine ng-untouched ng-valid ng-isolate-scope ng-valid-date ng-hide" name="jam" placeholder="Jam">
 			 	 </div>
 				
 			</div>

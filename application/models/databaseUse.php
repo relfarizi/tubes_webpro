@@ -57,8 +57,8 @@ class databaseUse extends CI_model
 	public function reg(){
 		$data = [
 			"iddetail"=>1,
-			"jam"=>"12.00",
-			"date"=>"12 sept 2019",
+			"jam"=>$this->input->post('jam', true),
+			"date"=>$this->input->post('tanggal', true),
 			"nama" => $this->input->post('nama', true),
 			"email" => $this->input->post('email', true),
 			"telepon"=>$this->input->post('telepon', true),

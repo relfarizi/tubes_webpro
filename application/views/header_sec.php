@@ -4,7 +4,7 @@
   <link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/header.css");?>">
 </head>
 <body >
-<div style="background: white; position: sticky; top: 0;">
+<div class="sticky-top", style="background: white;">
 <div>
 <div style="color: white;">
 	<nav class="navbar navbar-expand-lg navbar-light container-fluid ">
@@ -14,7 +14,7 @@
   <div class="nv-bar">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link col-lg tulisan" href="<?php echo base_url("index.php/C_klikfiks/tentang_kamiload") ?>">Tentang Kami </a>
+        <a class="nav-link col-lg tulisan" href="#">Tentang Kami </a>
       </li>
       <li class="nav-item active">
         <a class="nav-link col-lg" href="<?php echo base_url("index.php/C_klikfiks/orderload") ?>">Track Order</a>

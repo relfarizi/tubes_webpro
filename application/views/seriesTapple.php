@@ -10,7 +10,7 @@
 <body >
   <div class="breadcrumb ng-scope" ng-if="vm.history" style="background: white">
   <div class="container" >
-    <a href="<?php echo base_url('index.php/C_klikfiks/index');?> ">
+    <a href="<?php echo base_url('index.php/C_klikfiks/brandTload');?> ">
       <img src="<?php echo base_url("assets/leave.png")?>" height="80px" width="80px" style="padding: 15px" >
     
                 <span >Perangkat</span>
@@ -35,7 +35,7 @@
                 
                 <h3  >ipad air 2</h3>
                 <span class="service-btn"  >
-                  <a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');$_SESSION["series"] ="IPad Air 2";?> ">
+                  <a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload'); $_SESSION["series"] ="IPad Air 2";?> ">
                     <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>"  height="50px" width="50px">
                     
                   </a>

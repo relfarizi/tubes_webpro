@@ -16,7 +16,7 @@
         <a id="1" class="nav-link col-lg" href="<?php echo base_url("index.php/C_klikfiks/tentang_kamiload") ?>" style="color: white">Tentang Kami </a>
       </li>
       <li class="nav-item active">
-        <a id="2"class="nav-link col-lg" href="<?php echo base_url("index.php/C_klikfiks/orderload") ?>" style="color: white">Track Order</a>
+        <a id="2"class="nav-link col-lg" href="#" style="color: white">Track Order</a>
       </li>
       <li class="nav-item active">
         <a id="3" class="nav-link col-lg" href="#" style="color: white">Blog</a>
