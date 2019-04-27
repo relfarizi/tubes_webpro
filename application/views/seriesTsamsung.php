@@ -32,7 +32,7 @@
               <div style="text-align: center;">
                 <h3  >Galaxy Tab 7.0</h3>
                 <span class="service-btn"  >
-                  <a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');?> ">
+                  <a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');$_SESSION["series"] ="Galaxy Tab 7.0";?> ">
                     <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
                   </a>
                 </span>
@@ -46,7 +46,7 @@
               <span>
                 <h3>Galaxy Tab 8.9</h3>
                 <span class="service-btn">
-                  <a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload'); $_SESSION["series"] ="Galaxy Tab 8.9";?> ">
+                  <a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload'); ?> ">
                     <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
                   </a></span>
               </span>
@@ -59,7 +59,7 @@
               <img class="img-thumbnail" src="<?php echo base_url("assets/Galaxy_Tab_7.7.png")?>" height="120px" width="120px">
               <span>
                 <h3>Galaxy Tab 7.7</h3>
-                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload'); $_SESSION["series"] ="Galaxy Tab 7.7";?> ">
+                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');?> ">
                     <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
                   </a></span>
               </span>
@@ -72,7 +72,7 @@
               <img class="img-thumbnail" src="<?php echo base_url("assets/Galaxy_Tab_10.1.png")?>" height="120px" width="120px">
               <span>
                 <h3>Galaxy Tab 10.1</h3>
-                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');$_SESSION["series"] ="Galaxy Tab 10.1";?> ">
+                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');?> ">
                     <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
                   </a></span>
               </span>
@@ -85,7 +85,7 @@
               <img class="img-thumbnail" src="<?php echo base_url("assets/galaxy-tab-s2.jpg")?>"height="140px" width="150px">
               <span>
                 <h3>Galaxy Tab s2</h3>
-                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');$_SESSION["series"] ="Galaxy Tab s2";?> ">
+                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');?> ">
                     <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
                   </a></span>
               </span>
@@ -98,7 +98,7 @@
               <img class="img-thumbnail" src="<?php echo base_url("assets/galaxy-tab-s3.jpg")?>" height="120px" width="120px">
               <span>
                 <h3>Galaxy Tab s3 </h3>
-                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');$_SESSION["series"] ="Galaxy Tab s3";?> ">
+                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');?> ">
                     <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
                   </a></span>
               </span>
@@ -111,7 +111,7 @@
               <img class="img-thumbnail" src="<?php echo base_url("assets/galaxy-tab-e.jpg")?>" height="120px" width="120px">
               <span>
                 <h3>Galaxy Tab E</h3>
-                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');$_SESSION["series"] ="Galaxy Tab E";?> ">
+                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');?> ">
                     <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
                   </a></span>
               </span>
@@ -124,7 +124,7 @@
               <img class="img-thumbnail" src="<?php echo base_url("assets/galaxy-tab-active.jpg")?>"height="120px" width="120px">
               <span>
                 <h3>Galaxy Tab Active</h3>
-                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload'); $_SESSION["series"] ="Galaxy Tab Active";?> ">
+                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload');?>  ">
                     <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
                   </a></span>
               </span>
@@ -137,7 +137,7 @@
               <img class="img-thumbnail" src="<?php echo base_url("assets/samsung-galaxy-tab-view.jpg")?>" height="120px" width="120px">
               <span>
                 <h3>galaxy tab view</h3>
-                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload'); $_SESSION["series"] ="Galaxy Tab view";?> ">
+                <span class="service-btn"><a href="<?php echo base_url('index.php/C_klikfiks/kerusakanPload'); ?> " >
                     <img class="img-thumbnail" src="<?php echo base_url("assets/arr.png")?>" height="50px" width="50px">
                   </a></span>
               </span>
